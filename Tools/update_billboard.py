@@ -1,3 +1,11 @@
+from __future__ import annotations
+
+import re
+import json
+import datetime
+from typing import List, Dict, Any, Optional
+import requests
+from bs4 import BeautifulSoup, Tag
 def pick_hot100_tables(soup: BeautifulSoup) -> List[Tag]:
     """
     Yıl sayfasındaki 'wikitable' tablolardan, başlıklarında tarih + şarkı + artist geçenleri seç.
