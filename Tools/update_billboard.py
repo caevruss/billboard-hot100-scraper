@@ -1,151 +1,279 @@
+# Tools/update_billboard.py
+# -*- coding: utf-8 -*-
+"""
+Billboard Hot 100: Wikipedia'dan yıllık #1 şarkıları çekip JSON dosyalarına yazar.
+1958..bugün aralığını tarar, her yıl için DataSources/billboard_hot100/<YYYY>.json üretir
+ve hepsini DataSources/billboard_hot100/all.json içinde birleştirir.
+
+Kullanım:
+  python -u Tools/update_billboard.py
+"""
+
 from __future__ import annotations
 
-import re
 import json
-import datetime
-from typing import List, Dict, Any, Optional
+import os
+import re
+import time
+import logging
+from dataclasses import dataclass, asdict
+from datetime import datetime
+from typing import List, Dict, Optional
+
 import requests
 from bs4 import BeautifulSoup, Tag
-def pick_hot100_tables(soup: BeautifulSoup) -> List[Tag]:
+
+# ---------------------------- Yapılandırma ----------------------------
+
+REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+OUT_DIR = os.path.join(REPO_ROOT, "DataSources", "billboard_hot100")
+COMBINED_FILE = os.path.join(OUT_DIR, "all.json")
+
+# Wikipedia sayfa kalıbı (yıllık)
+WIKI_YEAR_URL = "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_{year}"
+
+HEADERS = {
+    # Basit bir tarayıcı benzetimi (403 riskini azaltır)
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0 Safari/537.36"
+    ),
+    "Accept-Language": "en-US,en;q=0.8",
+}
+
+REQUEST_TIMEOUT = 20
+RETRY_COUNT = 3
+RETRY_SLEEP = 2.5
+
+START_YEAR = 1958
+THIS_YEAR = datetime.utcnow().year
+
+# ---------------------------- Veri Modeli ----------------------------
+
+@dataclass
+class WeekRow:
+    year: int
+    issue_date: Optional[str]  # ISO 'YYYY-MM-DD' ya da None
+    week: Optional[str]        # Bazı yıllarda 'Date' tek hücre olabilir
+    song: str
+    artist: str
+    source: str                # yıl sayfa URL'i
+    row_index: int             # tabloda satır sıra
+
+# ---------------------------- Yardımcılar ----------------------------
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(levelname)s: %(message)s"
+)
+
+def ensure_dirs() -> None:
+    os.makedirs(OUT_DIR, exist_ok=True)
+
+def fetch_html(url: str) -> str:
+    """Basit retry ile HTML getirir."""
+    last_exc = None
+    for attempt in range(1, RETRY_COUNT + 1):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+            if resp.status_code == 200:
+                return resp.text
+            logging.warning("HTTP %s for %s", resp.status_code, url)
+        except Exception as e:
+            last_exc = e
+            logging.warning("Fetch error (%d/%d): %s", attempt, RETRY_COUNT, e)
+        time.sleep(RETRY_SLEEP * attempt)
+    if last_exc:
+        raise last_exc
+    raise RuntimeError(f"Unable to fetch {url}")
+
+def norm_text(s: Optional[str]) -> str:
+    if not s:
+        return ""
+    # NBSP → space, fazla boşlukları sadeleştir
+    s = s.replace("\u00A0", " ").replace("\u200B", " ").strip()
+    s = re.sub(r"\s+", " ", s)
+    return s
+
+def try_parse_date(cell_text: str, year_hint: int) -> Optional[str]:
     """
-    Yıl sayfasındaki 'wikitable' tablolardan, başlıklarında tarih + şarkı + artist geçenleri seç.
-    Başlık adları yıllara göre değişebildiği için geniş eşleştirme kullan.
+    Wikipedia'da tarih çeşitli biçimlerde olabilir (e.g. 'January 7', 'Jan. 7', '2018-01-07').
+    Yılsız gelirse year_hint ile tamamlamayı dener.
     """
-    wanted = []
-    for tbl in soup.find_all("table", class_=lambda c: c and "wikitable" in c):
-        # En mantıklı başlık satırı: thead içindeki th'ler ya da ilk tr'nin th'leri
-        header_tr = None
-        thead = tbl.find("thead")
-        if thead:
-            header_tr = thead.find("tr")
-        if header_tr is None:
-            # fallback: ilk th içeren satır
-            for tr in tbl.find_all("tr"):
-                if tr.find("th"):
-                    header_tr = tr
-                    break
-        if header_tr is None:
-            continue
+    t = norm_text(cell_text)
+    if not t:
+        return None
 
-        heads = [normalize_space(th.get_text(" ")) for th in header_tr.find_all("th")]
-        hl = " | ".join(h.lower() for h in heads)
+    # ISO tarihse direkt döndür
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", t)
+    if m:
+        return t
 
-        has_date   = any(k in hl for k in ["issue date", "chart date", "week ending", "week date", "date"])
-        has_song   = any(k in hl for k in ["song", "single", "title"])
-        has_artist = any(k in hl for k in ["artist", "artist(s)"])
+    # 'Month D' / 'Mon D' / 'Month D, YYYY'
+    cleaned = re.sub(r"[.,]", "", t)
+    parts = cleaned.split()
+    try:
+        if len(parts) == 2:
+            # Month Day ( yılı yok ) -> year_hint ekle
+            dt = datetime.strptime(f"{parts[0]} {parts[1]} {year_hint}", "%B %d %Y")
+            return dt.strftime("%Y-%m-%d")
+        if len(parts) == 3 and parts[2].isdigit() and len(parts[2]) == 4:
+            # Month Day YYYY
+            dt = datetime.strptime(f"{parts[0]} {parts[1]} {parts[2]}", "%B %d %Y")
+            return dt.strftime("%Y-%m-%d")
+    except Exception:
+        pass
 
-        if has_date and has_song and has_artist:
-            wanted.append(tbl)
+    # Bazı sayfalarda 'Week of January 7' gibi
+    m2 = re.search(r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})", cleaned, re.I)
+    if m2:
+        month = m2.group(1)
+        day = m2.group(2)
+        try:
+            dt = datetime.strptime(f"{month} {day} {year_hint}", "%B %d %Y")
+            return dt.strftime("%Y-%m-%d")
+        except Exception:
+            pass
 
-    return wanted
+    return None
 
+def header_map_from_table(table: Tag) -> Dict[str, int]:
+    """
+    TH başlıklarını inceleyip 'date/issue date', 'song', 'artist' sütun indekslerini bulur.
+    Esnek: 'Issue date', 'Date', 'Week of', 'Song', 'Single', 'Artist(s)', 'Artist' gibi çeşitleri yakalar.
+    """
+    mapping: Dict[str, int] = {}
+    thead = table.find("thead")
+    # Bazı yıllarda header <tbody> ilk satırda da olabilir
+    header_row = None
+    if thead:
+        header_row = thead.find("tr")
+    if not header_row:
+        header_row = table.find("tr")
 
-def parse_year_page(html: str, year: int) -> List[Dict[str, Any]]:
+    if not header_row:
+        return mapping
+
+    ths = header_row.find_all(["th", "td"])
+    for idx, th in enumerate(ths):
+        txt = norm_text(th.get_text(" "))
+        low = txt.lower()
+        if any(k in low for k in ["issue date", "date", "week of"]):
+            mapping["date"] = idx
+        elif any(k in low for k in ["song", "single", "title"]):
+            mapping["song"] = idx
+        elif any(k in low for k in ["artist(s)", "artist"]):
+            mapping["artist"] = idx
+    return mapping
+
+def extract_rows_for_year(html: str, year: int, source_url: str) -> List[WeekRow]:
     soup = BeautifulSoup(html, "lxml")
-    tables = pick_hot100_tables(soup)
-    rows: List[Dict[str, Any]] = []
+    tables = soup.find_all("table", class_=lambda c: c and "wikitable" in c)
 
-    if not tables:
-        return rows
+    rows: List[WeekRow] = []
 
-    # header anahtarlarını normalize edecek yardımcı
-    def header_key(s: str) -> str:
-        s = normalize_space(s).lower()
-        s = s.replace("single", "song")       # single -> song
-        s = s.replace("title", "song")        # title  -> song
-        s = s.replace("artist(s)", "artist")
-        s = s.replace("chart date", "date")
-        s = s.replace("issue date", "date")
-        s = s.replace("week ending", "date")
-        s = s.replace("week date", "date")
-        return s
-
-    for tbl in tables:
-        # başlık indekslerini çıkar
-        header_tr = None
-        thead = tbl.find("thead")
-        if thead:
-            header_tr = thead.find("tr")
-        if header_tr is None:
-            for tr in tbl.find_all("tr"):
-                if tr.find("th"):
-                    header_tr = tr
-                    break
-        if header_tr is None:
+    for table in tables:
+        hmap = header_map_from_table(table)
+        if not hmap or "song" not in hmap or "artist" not in hmap:
             continue
 
-        headers = [header_key(th.get_text(" ")) for th in header_tr.find_all("th")]
-        # indeks adayları
-        def find_col(keys: List[str]) -> Optional[int]:
-            for i, h in enumerate(headers):
-                for k in keys:
-                    if k in h:
-                        return i
-            return None
-
-        idx_date   = find_col(["date"])
-        idx_song   = find_col(["song"])
-        idx_artist = find_col(["artist"])
-
-        # satırları dolaş
-        for tr in tbl.find_all("tr"):
-            tds = tr.find_all("td")
-            if len(tds) < 2:
+        # Tablonun veri satırlarını yürü
+        body = table.find("tbody") or table
+        row_idx = 0
+        for tr in body.find_all("tr"):
+            tds = tr.find_all(["td", "th"])
+            if len(tds) < 2:  # boş/başlık alt satır
                 continue
 
-            # başlığın altında olmayan satırlar olabilir (altbaşlıklar vs.)
-            cells_txt = [normalize_space(td.get_text(" ")) for td in tds]
-
-            # indeksler eksikse kaba fallback
-            _id = idx_date if idx_date is not None and idx_date < len(tds) else 0
-            _is = idx_song if idx_song is not None and idx_song < len(tds) else min(1, len(tds)-1)
-            _ia = idx_artist if idx_artist is not None and idx_artist < len(tds) else min(2, len(tds)-1)
-
-            raw_date   = cells_txt[_id]
-            raw_artist = cells_txt[_ia]
-
-            # şarkı adını hücreden daha temiz al
-            song_cell = tds[_is]
-            song_text = normalize_space(song_cell.get_text(" "))
-            # italik içinde ad varsa onu tercih et
-            it = song_cell.find("i")
-            if it:
-                st = normalize_space(it.get_text(" "))
-                if st:
-                    song_text = st
-
-            if not song_text:
-                continue
-
-            # Tarihi ISO'ya çevir; yıl yoksa 'year' ekle
-            iso = parse_date(raw_date)
-            if iso is None:
-                # bazen 'Jan 6' gibi yalnızca ay-gün gelir: year'i eklemeyi dene
-                date_with_year = f"{raw_date} {year}"
-                iso = parse_date(date_with_year)
-            if iso is None:
-                continue
-
-            # YYYY-MM-DD'ye dönmüş olmalı
+            # şarkı-artist zorunlu
             try:
-                dt = datetime.datetime.strptime(iso, "%Y-%m-%d").date()
-            except ValueError:
+                song_cell = tds[hmap["song"]]
+                artist_cell = tds[hmap["artist"]]
+            except Exception:
                 continue
 
-            rows.append({
-                "issue_date": dt.isoformat(),
-                "year": dt.year,
-                "song": song_text,
-                "artist": raw_artist,
-                "source": "wikipedia"
-            })
+            song = norm_text(song_cell.get_text(" "))
+            artist = norm_text(artist_cell.get_text(" "))
+            if not song or not artist:
+                continue
 
-    # dedup + yıl filtresi + sıralama
-    dedup = {}
-    for r in rows:
-        key = (r["issue_date"], r["song"].lower(), r["artist"].lower())
-        if key not in dedup:
-            dedup[key] = r
-    rows = [r for r in dedup.values() if FIRST_YEAR <= r["year"] <= CURRENT_YEAR]
-    rows.sort(key=lambda r: r["issue_date"])
+            # tarih opsiyonel (yine de dene)
+            issue_iso = None
+            if "date" in hmap and hmap["date"] < len(tds):
+                issue_iso = try_parse_date(tds[hmap["date"]].get_text(" "), year)
+
+            row = WeekRow(
+                year=year,
+                issue_date=issue_iso,
+                week=issue_iso,  # "week" olarak da aynı değeri taşıyabilir; geriye dönük uyum
+                song=song.strip("“”\"' "),
+                artist=artist.strip("“”\"' "),
+                source=source_url,
+                row_index=row_idx
+            )
+            rows.append(row)
+            row_idx += 1
+
     return rows
+
+def write_year_json(year: int, rows: List[WeekRow]) -> None:
+    out_path = os.path.join(OUT_DIR, f"{year}.json")
+    data = [asdict(r) for r in rows]
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def combine_all_years() -> int:
+    combined: List[Dict] = []
+    for y in range(START_YEAR, THIS_YEAR + 1):
+        path = os.path.join(OUT_DIR, f"{y}.json")
+        if not os.path.exists(path):
+            continue
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                arr = json.load(f)
+                if isinstance(arr, list):
+                    combined.extend(arr)
+        except Exception as e:
+            logging.warning("Could not read %s (%s)", path, e)
+
+    with open(COMBINED_FILE, "w", encoding="utf-8") as f:
+        json.dump(combined, f, ensure_ascii=False, indent=2)
+
+    return len(combined)
+
+# ---------------------------- Ana Akış ----------------------------
+
+def scrape_year(year: int) -> int:
+    url = WIKI_YEAR_URL.format(year=year)
+    try:
+        html = fetch_html(url)
+        rows = extract_rows_for_year(html, year, url)
+        write_year_json(year, rows)
+        logging.info("✓ %d: %d row(s) -> billboard_hot100/%d.json", year, len(rows), year)
+        # nazik hız: Wikipedia'yı yormayalım
+        time.sleep(0.6)
+        return len(rows)
+    except Exception as e:
+        logging.error("✗ %d: %s", year, e)
+        # yine de boş dosya yazalım ki birleşik dosyada yıl varlığı belli olsun
+        write_year_json(year, [])
+        return 0
+
+def main() -> int:
+    logging.info("Billboard Hot 100 scraper started.")
+    ensure_dirs()
+
+    total_rows = 0
+    for y in range(START_YEAR, THIS_YEAR + 1):
+        total_rows += scrape_year(y)
+
+    combined = combine_all_years()
+    logging.info("Done. Total rows combined: %d -> %s", combined, os.path.relpath(COMBINED_FILE, REPO_ROOT))
+    return 0
+
+# ---------------------------- Entrypoint ----------------------------
+
+if __name__ == "__main__":
+    import sys
+    sys.exit(main())
