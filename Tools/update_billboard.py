@@ -8,7 +8,7 @@ ve hepsini DataSources/billboard_hot100/all.json içinde birleştirir.
 Kullanım:
   python -u Tools/update_billboard.py
 """
-
+import csv
 from __future__ import annotations
 
 import json
@@ -223,7 +223,7 @@ def write_year_json(year: int, rows: List[WeekRow]) -> None:
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-def combine_all_years() -> int:
+def combine_all_years() -> List[Dict]:
     combined: List[Dict] = []
     for y in range(START_YEAR, THIS_YEAR + 1):
         path = os.path.join(OUT_DIR, f"{y}.json")
@@ -240,7 +240,7 @@ def combine_all_years() -> int:
     with open(COMBINED_FILE, "w", encoding="utf-8") as f:
         json.dump(combined, f, ensure_ascii=False, indent=2)
 
-    return len(combined)
+    return combined
 
 # ---------------------------- Ana Akış ----------------------------
 
@@ -268,9 +268,34 @@ def main() -> int:
     for y in range(START_YEAR, THIS_YEAR + 1):
         total_rows += scrape_year(y)
 
-    combined = combine_all_years()
-    logging.info("Done. Total rows combined: %d -> %s", combined, os.path.relpath(COMBINED_FILE, REPO_ROOT))
+    combined_rows = combine_all_years()
+    csv_path = write_combined_csv(combined_rows)
+
+    logging.info(
+        "Done. Total rows combined: %d -> %s (CSV -> %s)",
+        len(combined_rows),
+        os.path.relpath(COMBINED_FILE, REPO_ROOT),
+        os.path.relpath(csv_path, REPO_ROOT),
+    )
     return 0
+
+def write_combined_csv(rows: List[Dict]) -> str:
+    csv_path = os.path.join(REPO_ROOT, "DataSources", "billboard_hot100_weekly.csv")
+    fieldnames = ["year", "issue_date", "week", "song", "artist", "source", "row_index"]
+    with open(csv_path, "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        for r in rows:
+            w.writerow({
+                "year": r.get("year"),
+                "issue_date": r.get("issue_date"),
+                "week": r.get("week"),
+                "song": r.get("song"),
+                "artist": r.get("artist"),
+                "source": r.get("source"),
+                "row_index": r.get("row_index"),
+            })
+    return csv_path
 
 # ---------------------------- Entrypoint ----------------------------
 
