@@ -8,9 +8,8 @@ ve hepsini DataSources/billboard_hot100/all.json içinde birleştirir.
 Kullanım:
   python -u Tools/update_billboard.py
 """
-import csv
 from __future__ import annotations
-
+import csv
 import json
 import os
 import re
