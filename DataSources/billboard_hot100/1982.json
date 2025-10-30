@@ -1,0 +1,164 @@
+[
+  {
+    "year": 1982,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 0
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-01-02",
+    "week": "1982-01-02",
+    "song": "Physical",
+    "artist": "Olivia Newton-John",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 1
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-01-30",
+    "week": "1982-01-30",
+    "song": "I Can't Go for That (No Can Do)",
+    "artist": "Daryl Hall and John Oates",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 2
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-02-06",
+    "week": "1982-02-06",
+    "song": "Centerfold",
+    "artist": "The J. Geils Band",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 3
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-03-20",
+    "week": "1982-03-20",
+    "song": "I Love Rock 'n' Roll",
+    "artist": "Joan Jett and the Blackhearts",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 4
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-05-08",
+    "week": "1982-05-08",
+    "song": "Chariots of Fire",
+    "artist": "Vangelis",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 5
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-05-15",
+    "week": "1982-05-15",
+    "song": "Ebony and Ivory",
+    "artist": "Paul McCartney and Stevie Wonder",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 6
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-07-03",
+    "week": "1982-07-03",
+    "song": "Don't You Want Me",
+    "artist": "The Human League",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 7
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-07-24",
+    "week": "1982-07-24",
+    "song": "Eye of the Tiger",
+    "artist": "Survivor",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 8
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-09-04",
+    "week": "1982-09-04",
+    "song": "Abracadabra",
+    "artist": "Steve Miller Band",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 9
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-09-11",
+    "week": "1982-09-11",
+    "song": "Hard to Say I'm Sorry",
+    "artist": "Chicago",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 10
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-09-25",
+    "week": "1982-09-25",
+    "song": "Abracadabra",
+    "artist": "Steve Miller Band",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 11
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-10-02",
+    "week": "1982-10-02",
+    "song": "Jack & Diane",
+    "artist": "John Cougar",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 12
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-10-30",
+    "week": "1982-10-30",
+    "song": "Who Can It Be Now?",
+    "artist": "Men at Work",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 13
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-11-06",
+    "week": "1982-11-06",
+    "song": "Up Where We Belong",
+    "artist": "Joe Cocker and Jennifer Warnes",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 14
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-11-27",
+    "week": "1982-11-27",
+    "song": "Truly",
+    "artist": "Lionel Richie",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 15
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-12-11",
+    "week": "1982-12-11",
+    "song": "Mickey",
+    "artist": "Toni Basil",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 16
+  },
+  {
+    "year": 1982,
+    "issue_date": "1982-12-18",
+    "week": "1982-12-18",
+    "song": "Maneater",
+    "artist": "Daryl Hall and John Oates",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1982",
+    "row_index": 17
+  }
+]

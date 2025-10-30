@@ -1,0 +1,110 @@
+[
+  {
+    "year": 1993,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1993",
+    "row_index": 0
+  },
+  {
+    "year": 1993,
+    "issue_date": "1993-01-02",
+    "week": "1993-01-02",
+    "song": "I Will Always Love You",
+    "artist": "Whitney Houston",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1993",
+    "row_index": 1
+  },
+  {
+    "year": 1993,
+    "issue_date": "1993-03-06",
+    "week": "1993-03-06",
+    "song": "A Whole New World",
+    "artist": "Peabo Bryson and Regina Belle",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1993",
+    "row_index": 2
+  },
+  {
+    "year": 1993,
+    "issue_date": "1993-03-13",
+    "week": "1993-03-13",
+    "song": "Informer",
+    "artist": "Snow",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1993",
+    "row_index": 3
+  },
+  {
+    "year": 1993,
+    "issue_date": "1993-05-01",
+    "week": "1993-05-01",
+    "song": "Freak Me",
+    "artist": "Silk",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1993",
+    "row_index": 4
+  },
+  {
+    "year": 1993,
+    "issue_date": "1993-05-15",
+    "week": "1993-05-15",
+    "song": "That's the Way Love Goes",
+    "artist": "Janet Jackson",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1993",
+    "row_index": 5
+  },
+  {
+    "year": 1993,
+    "issue_date": "1993-07-10",
+    "week": "1993-07-10",
+    "song": "Weak",
+    "artist": "SWV",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1993",
+    "row_index": 6
+  },
+  {
+    "year": 1993,
+    "issue_date": "1993-07-24",
+    "week": "1993-07-24",
+    "song": "Can't Help Falling in Love",
+    "artist": "UB40",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1993",
+    "row_index": 7
+  },
+  {
+    "year": 1993,
+    "issue_date": "1993-09-11",
+    "week": "1993-09-11",
+    "song": "Dreamlover",
+    "artist": "Mariah Carey",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1993",
+    "row_index": 8
+  },
+  {
+    "year": 1993,
+    "issue_date": "1993-11-06",
+    "week": "1993-11-06",
+    "song": "I'd Do Anything for Love (But I Won't Do That)",
+    "artist": "Meat Loaf",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1993",
+    "row_index": 9
+  },
+  {
+    "year": 1993,
+    "issue_date": "1993-12-11",
+    "week": "1993-12-11",
+    "song": "Again",
+    "artist": "Janet Jackson",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1993",
+    "row_index": 10
+  },
+  {
+    "year": 1993,
+    "issue_date": "1993-12-25",
+    "week": "1993-12-25",
+    "song": "Hero",
+    "artist": "Mariah Carey",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1993",
+    "row_index": 11
+  }
+]

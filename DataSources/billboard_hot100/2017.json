@@ -1,0 +1,137 @@
+[
+  {
+    "year": 2017,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 0
+  },
+  {
+    "year": 2017,
+    "issue_date": "2017-01-07",
+    "week": "2017-01-07",
+    "song": "Starboy",
+    "artist": "The Weeknd featuring Daft Punk",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 1
+  },
+  {
+    "year": 2017,
+    "issue_date": "2017-01-14",
+    "week": "2017-01-14",
+    "song": "Black Beatles",
+    "artist": "Rae Sremmurd featuring Gucci Mane",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 2
+  },
+  {
+    "year": 2017,
+    "issue_date": "2017-01-21",
+    "week": "2017-01-21",
+    "song": "Bad and Boujee",
+    "artist": "Migos featuring Lil Uzi Vert",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 3
+  },
+  {
+    "year": 2017,
+    "issue_date": "2017-01-28",
+    "week": "2017-01-28",
+    "song": "Shape of You \" †",
+    "artist": "Ed Sheeran",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 4
+  },
+  {
+    "year": 2017,
+    "issue_date": "2017-02-04",
+    "week": "2017-02-04",
+    "song": "Bad and Boujee",
+    "artist": "Migos featuring Lil Uzi Vert",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 5
+  },
+  {
+    "year": 2017,
+    "issue_date": "2017-02-18",
+    "week": "2017-02-18",
+    "song": "Shape of You\" †",
+    "artist": "Ed Sheeran",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 6
+  },
+  {
+    "year": 2017,
+    "issue_date": "2017-05-06",
+    "week": "2017-05-06",
+    "song": "Humble",
+    "artist": "Kendrick Lamar",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 7
+  },
+  {
+    "year": 2017,
+    "issue_date": "2017-05-13",
+    "week": "2017-05-13",
+    "song": "That's What I Like",
+    "artist": "Bruno Mars",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 8
+  },
+  {
+    "year": 2017,
+    "issue_date": "2017-05-20",
+    "week": "2017-05-20",
+    "song": "I'm the One",
+    "artist": "DJ Khaled featuring Justin Bieber , Quavo , Chance the Rapper and Lil Wayne",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 9
+  },
+  {
+    "year": 2017,
+    "issue_date": "2017-05-27",
+    "week": "2017-05-27",
+    "song": "Despacito",
+    "artist": "Luis Fonsi and Daddy Yankee featuring Justin Bieber",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 10
+  },
+  {
+    "year": 2017,
+    "issue_date": "2017-09-16",
+    "week": "2017-09-16",
+    "song": "Look What You Made Me Do",
+    "artist": "Taylor Swift",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 11
+  },
+  {
+    "year": 2017,
+    "issue_date": "2017-10-07",
+    "week": "2017-10-07",
+    "song": "Bodak Yellow",
+    "artist": "Cardi B",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 12
+  },
+  {
+    "year": 2017,
+    "issue_date": "2017-10-28",
+    "week": "2017-10-28",
+    "song": "Rockstar",
+    "artist": "Post Malone featuring 21 Savage",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 13
+  },
+  {
+    "year": 2017,
+    "issue_date": "2017-12-23",
+    "week": "2017-12-23",
+    "song": "Perfect",
+    "artist": "Ed Sheeran and Beyoncé",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2017",
+    "row_index": 14
+  }
+]

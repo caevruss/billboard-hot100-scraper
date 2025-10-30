@@ -1,0 +1,128 @@
+[
+  {
+    "year": 2004,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2004",
+    "row_index": 0
+  },
+  {
+    "year": 2004,
+    "issue_date": "2004-01-03",
+    "week": "2004-01-03",
+    "song": "Hey Ya!",
+    "artist": "OutKast",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2004",
+    "row_index": 1
+  },
+  {
+    "year": 2004,
+    "issue_date": "2004-02-14",
+    "week": "2004-02-14",
+    "song": "The Way You Move",
+    "artist": "OutKast featuring Sleepy Brown",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2004",
+    "row_index": 2
+  },
+  {
+    "year": 2004,
+    "issue_date": "2004-02-21",
+    "week": "2004-02-21",
+    "song": "Slow Jamz",
+    "artist": "Twista featuring Kanye West and Jamie Foxx",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2004",
+    "row_index": 3
+  },
+  {
+    "year": 2004,
+    "issue_date": "2004-02-28",
+    "week": "2004-02-28",
+    "song": "Yeah! \" †",
+    "artist": "Usher featuring Lil Jon and Ludacris",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2004",
+    "row_index": 4
+  },
+  {
+    "year": 2004,
+    "issue_date": "2004-05-22",
+    "week": "2004-05-22",
+    "song": "Burn",
+    "artist": "Usher",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2004",
+    "row_index": 5
+  },
+  {
+    "year": 2004,
+    "issue_date": "2004-07-10",
+    "week": "2004-07-10",
+    "song": "I Believe",
+    "artist": "Fantasia",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2004",
+    "row_index": 6
+  },
+  {
+    "year": 2004,
+    "issue_date": "2004-07-17",
+    "week": "2004-07-17",
+    "song": "Burn",
+    "artist": "Usher",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2004",
+    "row_index": 7
+  },
+  {
+    "year": 2004,
+    "issue_date": "2004-07-24",
+    "week": "2004-07-24",
+    "song": "Confessions Part II",
+    "artist": "[ 68 ] [ 69 ]",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2004",
+    "row_index": 8
+  },
+  {
+    "year": 2004,
+    "issue_date": "2004-08-07",
+    "week": "2004-08-07",
+    "song": "Slow Motion",
+    "artist": "Juvenile featuring Soulja Slim",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2004",
+    "row_index": 9
+  },
+  {
+    "year": 2004,
+    "issue_date": "2004-08-21",
+    "week": "2004-08-21",
+    "song": "Lean Back",
+    "artist": "Terror Squad",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2004",
+    "row_index": 10
+  },
+  {
+    "year": 2004,
+    "issue_date": "2004-09-11",
+    "week": "2004-09-11",
+    "song": "Goodies",
+    "artist": "Ciara featuring Petey Pablo",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2004",
+    "row_index": 11
+  },
+  {
+    "year": 2004,
+    "issue_date": "2004-10-30",
+    "week": "2004-10-30",
+    "song": "My Boo",
+    "artist": "Usher and Alicia Keys",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2004",
+    "row_index": 12
+  },
+  {
+    "year": 2004,
+    "issue_date": "2004-12-11",
+    "week": "2004-12-11",
+    "song": "Drop It Like It's Hot",
+    "artist": "Snoop Dogg featuring Pharrell",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2004",
+    "row_index": 13
+  }
+]

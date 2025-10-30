@@ -1,0 +1,290 @@
+[
+  {
+    "year": 1966,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 0
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-01-01",
+    "week": "1966-01-01",
+    "song": "The Sound of Silence",
+    "artist": "Simon & Garfunkel",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 1
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-01-08",
+    "week": "1966-01-08",
+    "song": "We Can Work It Out",
+    "artist": "The Beatles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 2
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-01-22",
+    "week": "1966-01-22",
+    "song": "The Sound of Silence",
+    "artist": "Simon & Garfunkel",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 3
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-01-29",
+    "week": "1966-01-29",
+    "song": "We Can Work It Out",
+    "artist": "The Beatles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 4
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-02-05",
+    "week": "1966-02-05",
+    "song": "My Love",
+    "artist": "Petula Clark",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 5
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-02-19",
+    "week": "1966-02-19",
+    "song": "Lightnin' Strikes",
+    "artist": "Lou Christie",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 6
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-02-26",
+    "week": "1966-02-26",
+    "song": "These Boots Are Made for Walkin",
+    "artist": "Nancy Sinatra",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 7
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-03-05",
+    "week": "1966-03-05",
+    "song": "The Ballad of the Green Berets",
+    "artist": "SSgt Barry Sadler",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 8
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-04-09",
+    "week": "1966-04-09",
+    "song": "(You're My) Soul and Inspiration",
+    "artist": "The Righteous Brothers",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 9
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-04-30",
+    "week": "1966-04-30",
+    "song": "Good Lovin",
+    "artist": "The Young Rascals",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 10
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-05-07",
+    "week": "1966-05-07",
+    "song": "Monday, Monday",
+    "artist": "The Mamas & the Papas",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 11
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-05-28",
+    "week": "1966-05-28",
+    "song": "When a Man Loves a Woman",
+    "artist": "Percy Sledge",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 12
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-06-11",
+    "week": "1966-06-11",
+    "song": "Paint It Black",
+    "artist": "The Rolling Stones",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 13
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-06-25",
+    "week": "1966-06-25",
+    "song": "Paperback Writer",
+    "artist": "The Beatles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 14
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-07-02",
+    "week": "1966-07-02",
+    "song": "Strangers in the Night",
+    "artist": "Frank Sinatra",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 15
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-07-09",
+    "week": "1966-07-09",
+    "song": "Paperback Writer",
+    "artist": "The Beatles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 16
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-07-16",
+    "week": "1966-07-16",
+    "song": "Hanky Panky",
+    "artist": "Tommy James and the Shondells",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 17
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-07-30",
+    "week": "1966-07-30",
+    "song": "Wild Thing",
+    "artist": "The Troggs",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 18
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-08-13",
+    "week": "1966-08-13",
+    "song": "Summer in the City",
+    "artist": "The Lovin' Spoonful",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 19
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-09-03",
+    "week": "1966-09-03",
+    "song": "Sunshine Superman",
+    "artist": "Donovan",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 20
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-09-10",
+    "week": "1966-09-10",
+    "song": "You Can't Hurry Love",
+    "artist": "The Supremes",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 21
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-09-24",
+    "week": "1966-09-24",
+    "song": "Cherish",
+    "artist": "The Association",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 22
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-10-15",
+    "week": "1966-10-15",
+    "song": "Reach Out I'll Be There",
+    "artist": "Four Tops",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 23
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-10-29",
+    "week": "1966-10-29",
+    "song": "96 Tears",
+    "artist": "? and the Mysterians",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 24
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-11-05",
+    "week": "1966-11-05",
+    "song": "Last Train to Clarksville",
+    "artist": "The Monkees",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 25
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-11-12",
+    "week": "1966-11-12",
+    "song": "Poor Side of Town",
+    "artist": "Johnny Rivers",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 26
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-11-19",
+    "week": "1966-11-19",
+    "song": "You Keep Me Hangin' On",
+    "artist": "The Supremes",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 27
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-12-03",
+    "week": "1966-12-03",
+    "song": "Winchester Cathedral",
+    "artist": "The New Vaudeville Band",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 28
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-12-10",
+    "week": "1966-12-10",
+    "song": "Good Vibrations",
+    "artist": "The Beach Boys",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 29
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-12-17",
+    "week": "1966-12-17",
+    "song": "Winchester Cathedral",
+    "artist": "The New Vaudeville Band",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 30
+  },
+  {
+    "year": 1966,
+    "issue_date": "1966-12-31",
+    "week": "1966-12-31",
+    "song": "I'm a Believer",
+    "artist": "The Monkees",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966",
+    "row_index": 31
+  }
+]

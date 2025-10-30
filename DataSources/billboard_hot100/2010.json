@@ -1,0 +1,182 @@
+[
+  {
+    "year": 2010,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 0
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-01-02",
+    "week": "2010-01-02",
+    "song": "Tik Tok \"†",
+    "artist": "Kesha",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 1
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-03-06",
+    "week": "2010-03-06",
+    "song": "Imma Be",
+    "artist": "The Black Eyed Peas",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 2
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-03-20",
+    "week": "2010-03-20",
+    "song": "Break Your Heart",
+    "artist": "Taio Cruz featuring Ludacris",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 3
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-03-27",
+    "week": "2010-03-27",
+    "song": "Rude Boy",
+    "artist": "Rihanna",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 4
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-05-01",
+    "week": "2010-05-01",
+    "song": "Nothin' on You",
+    "artist": "B.o.B featuring Bruno Mars",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 5
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-05-15",
+    "week": "2010-05-15",
+    "song": "OMG",
+    "artist": "Usher featuring will.i.am",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 6
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-05-22",
+    "week": "2010-05-22",
+    "song": "Not Afraid",
+    "artist": "Eminem",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 7
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-05-29",
+    "week": "2010-05-29",
+    "song": "OMG",
+    "artist": "Usher featuring will.i.am",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 8
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-06-19",
+    "week": "2010-06-19",
+    "song": "California Gurls",
+    "artist": "Katy Perry featuring Snoop Dogg",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 9
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-07-31",
+    "week": "2010-07-31",
+    "song": "Love the Way You Lie",
+    "artist": "Eminem featuring Rihanna",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 10
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-09-18",
+    "week": "2010-09-18",
+    "song": "Teenage Dream",
+    "artist": "Katy Perry",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 11
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-10-02",
+    "week": "2010-10-02",
+    "song": "Just the Way You Are",
+    "artist": "Bruno Mars",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 12
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-10-30",
+    "week": "2010-10-30",
+    "song": "Like a G6",
+    "artist": "Far East Movement featuring The Cataracs and Dev",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 13
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-11-13",
+    "week": "2010-11-13",
+    "song": "We R Who We R",
+    "artist": "Kesha",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 14
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-11-20",
+    "week": "2010-11-20",
+    "song": "What's My Name?",
+    "artist": "Rihanna featuring Drake",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 15
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-11-27",
+    "week": "2010-11-27",
+    "song": "Like a G6",
+    "artist": "Far East Movement featuring The Cataracs and Dev",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 16
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-12-04",
+    "week": "2010-12-04",
+    "song": "Only Girl (In the World)",
+    "artist": "Rihanna",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 17
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-12-11",
+    "week": "2010-12-11",
+    "song": "Raise Your Glass",
+    "artist": "Pink",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 18
+  },
+  {
+    "year": 2010,
+    "issue_date": "2010-12-18",
+    "week": "2010-12-18",
+    "song": "Firework",
+    "artist": "Katy Perry",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2010",
+    "row_index": 19
+  }
+]

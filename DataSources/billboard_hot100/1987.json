@@ -1,0 +1,281 @@
+[
+  {
+    "year": 1987,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 0
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-01-03",
+    "week": "1987-01-03",
+    "song": "Walk Like an Egyptian \"†",
+    "artist": "The Bangles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 1
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-01-17",
+    "week": "1987-01-17",
+    "song": "Shake You Down",
+    "artist": "Gregory Abbott",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 2
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-01-24",
+    "week": "1987-01-24",
+    "song": "At This Moment",
+    "artist": "Billy Vera and the Beaters",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 3
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-02-07",
+    "week": "1987-02-07",
+    "song": "Open Your Heart",
+    "artist": "Madonna",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 4
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-02-14",
+    "week": "1987-02-14",
+    "song": "Livin' on a Prayer",
+    "artist": "Bon Jovi",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 5
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-03-14",
+    "week": "1987-03-14",
+    "song": "Jacob's Ladder",
+    "artist": "Huey Lewis and the News",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 6
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-03-21",
+    "week": "1987-03-21",
+    "song": "Lean on Me",
+    "artist": "Club Nouveau",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 7
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-04-04",
+    "week": "1987-04-04",
+    "song": "Nothing's Gonna Stop Us Now",
+    "artist": "Starship",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 8
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-04-18",
+    "week": "1987-04-18",
+    "song": "I Knew You Were Waiting (For Me)",
+    "artist": "Aretha Franklin and George Michael",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 9
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-05-02",
+    "week": "1987-05-02",
+    "song": "(I Just) Died in Your Arms",
+    "artist": "Cutting Crew",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 10
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-05-16",
+    "week": "1987-05-16",
+    "song": "With or Without You",
+    "artist": "U2",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 11
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-06-06",
+    "week": "1987-06-06",
+    "song": "You Keep Me Hangin' On",
+    "artist": "Kim Wilde",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 12
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-06-13",
+    "week": "1987-06-13",
+    "song": "Always",
+    "artist": "Atlantic Starr",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 13
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-06-20",
+    "week": "1987-06-20",
+    "song": "Head to Toe",
+    "artist": "Lisa Lisa and Cult Jam",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 14
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-06-27",
+    "week": "1987-06-27",
+    "song": "I Wanna Dance with Somebody (Who Loves Me)",
+    "artist": "Whitney Houston",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 15
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-07-11",
+    "week": "1987-07-11",
+    "song": "Alone",
+    "artist": "Heart",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 16
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-08-01",
+    "week": "1987-08-01",
+    "song": "Shakedown",
+    "artist": "Bob Seger",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 17
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-08-08",
+    "week": "1987-08-08",
+    "song": "I Still Haven't Found What I'm Looking For",
+    "artist": "U2",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 18
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-08-22",
+    "week": "1987-08-22",
+    "song": "Who's That Girl",
+    "artist": "Madonna",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 19
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-08-29",
+    "week": "1987-08-29",
+    "song": "La Bamba",
+    "artist": "Los Lobos",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 20
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-09-19",
+    "week": "1987-09-19",
+    "song": "I Just Can't Stop Loving You",
+    "artist": "Michael Jackson with Siedah Garrett",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 21
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-09-26",
+    "week": "1987-09-26",
+    "song": "Didn't We Almost Have It All",
+    "artist": "Whitney Houston",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 22
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-10-10",
+    "week": "1987-10-10",
+    "song": "Here I Go Again",
+    "artist": "Whitesnake",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 23
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-10-17",
+    "week": "1987-10-17",
+    "song": "Lost in Emotion",
+    "artist": "Lisa Lisa and Cult Jam",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 24
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-10-24",
+    "week": "1987-10-24",
+    "song": "Bad",
+    "artist": "Michael Jackson",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 25
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-11-07",
+    "week": "1987-11-07",
+    "song": "I Think We're Alone Now",
+    "artist": "Tiffany",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 26
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-11-21",
+    "week": "1987-11-21",
+    "song": "Mony Mony",
+    "artist": "Billy Idol",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 27
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-11-28",
+    "week": "1987-11-28",
+    "song": "(I've Had) The Time of My Life",
+    "artist": "Bill Medley and Jennifer Warnes",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 28
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-12-05",
+    "week": "1987-12-05",
+    "song": "Heaven Is a Place on Earth",
+    "artist": "Belinda Carlisle",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 29
+  },
+  {
+    "year": 1987,
+    "issue_date": "1987-12-12",
+    "week": "1987-12-12",
+    "song": "Faith",
+    "artist": "George Michael",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1987",
+    "row_index": 30
+  }
+]

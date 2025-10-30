@@ -1,0 +1,155 @@
+[
+  {
+    "year": 2018,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 0
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-01-03",
+    "week": "2018-01-03",
+    "song": "Perfect",
+    "artist": "Ed Sheeran and Beyoncé",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 1
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-01-27",
+    "week": "2018-01-27",
+    "song": "Havana",
+    "artist": "Camila Cabello featuring Young Thug",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 2
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-02-03",
+    "week": "2018-02-03",
+    "song": "God's Plan \" †",
+    "artist": "Drake",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 3
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-04-21",
+    "week": "2018-04-21",
+    "song": "Nice for What",
+    "artist": "[ 34 ] [ 35 ]",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 4
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-05-19",
+    "week": "2018-05-19",
+    "song": "This Is America",
+    "artist": "Childish Gambino",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 5
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-06-02",
+    "week": "2018-06-02",
+    "song": "Nice for What",
+    "artist": "Drake",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 6
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-06-16",
+    "week": "2018-06-16",
+    "song": "Psycho",
+    "artist": "Post Malone featuring Ty Dolla Sign",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 7
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-06-23",
+    "week": "2018-06-23",
+    "song": "Nice for What",
+    "artist": "Drake",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 8
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-06-30",
+    "week": "2018-06-30",
+    "song": "Sad!",
+    "artist": "XXXTentacion",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 9
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-07-07",
+    "week": "2018-07-07",
+    "song": "I Like It",
+    "artist": "Cardi B , Bad Bunny and J Balvin",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 10
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-07-14",
+    "week": "2018-07-14",
+    "song": "Nice for What",
+    "artist": "Drake",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 11
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-07-21",
+    "week": "2018-07-21",
+    "song": "In My Feelings",
+    "artist": "[ 60 ] [ 61 ]",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 12
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-09-29",
+    "week": "2018-09-29",
+    "song": "Girls Like You",
+    "artist": "Maroon 5 featuring Cardi B",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 13
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-11-17",
+    "week": "2018-11-17",
+    "song": "Thank U, Next",
+    "artist": "Ariana Grande",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 14
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-12-08",
+    "week": "2018-12-08",
+    "song": "Sicko Mode",
+    "artist": "Travis Scott",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 15
+  },
+  {
+    "year": 2018,
+    "issue_date": "2018-12-15",
+    "week": "2018-12-15",
+    "song": "Thank U, Next",
+    "artist": "Ariana Grande",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2018",
+    "row_index": 16
+  }
+]

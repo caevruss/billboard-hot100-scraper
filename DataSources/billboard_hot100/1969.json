@@ -1,0 +1,164 @@
+[
+  {
+    "year": 1969,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 0
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-01-04",
+    "week": "1969-01-04",
+    "song": "I Heard It Through the Grapevine",
+    "artist": "Marvin Gaye",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 1
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-02-01",
+    "week": "1969-02-01",
+    "song": "Crimson and Clover",
+    "artist": "Tommy James and the Shondells",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 2
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-02-15",
+    "week": "1969-02-15",
+    "song": "Everyday People",
+    "artist": "Sly & the Family Stone",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 3
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-03-15",
+    "week": "1969-03-15",
+    "song": "Dizzy",
+    "artist": "Tommy Roe",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 4
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-04-12",
+    "week": "1969-04-12",
+    "song": "Aquarius/Let the Sunshine In",
+    "artist": "The 5th Dimension",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 5
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-05-24",
+    "week": "1969-05-24",
+    "song": "Get Back",
+    "artist": "The Beatles with Billy Preston",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 6
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-06-28",
+    "week": "1969-06-28",
+    "song": "Love Theme from Romeo and Juliet",
+    "artist": "Henry Mancini",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 7
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-07-12",
+    "week": "1969-07-12",
+    "song": "In the Year 2525",
+    "artist": "Zager and Evans",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 8
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-08-23",
+    "week": "1969-08-23",
+    "song": "Honky Tonk Women",
+    "artist": "The Rolling Stones",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 9
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-09-20",
+    "week": "1969-09-20",
+    "song": "Sugar, Sugar",
+    "artist": "The Archies",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 10
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-10-18",
+    "week": "1969-10-18",
+    "song": "I Can't Get Next to You",
+    "artist": "The Temptations",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 11
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-11-01",
+    "week": "1969-11-01",
+    "song": "Suspicious Minds",
+    "artist": "Elvis Presley",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 12
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-11-08",
+    "week": "1969-11-08",
+    "song": "Wedding Bell Blues",
+    "artist": "The 5th Dimension",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 13
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-11-29",
+    "week": "1969-11-29",
+    "song": "Come Together \" / \" Something",
+    "artist": "The Beatles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 14
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-12-06",
+    "week": "1969-12-06",
+    "song": "Na Na Hey Hey Kiss Him Goodbye",
+    "artist": "Steam",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 15
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-12-20",
+    "week": "1969-12-20",
+    "song": "Leaving on a Jet Plane",
+    "artist": "Peter, Paul and Mary",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 16
+  },
+  {
+    "year": 1969,
+    "issue_date": "1969-12-27",
+    "week": "1969-12-27",
+    "song": "Someday We'll Be Together",
+    "artist": "Diana Ross & the Supremes",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969",
+    "row_index": 17
+  }
+]

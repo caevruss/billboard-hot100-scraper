@@ -1,0 +1,128 @@
+[
+  {
+    "year": 2016,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2016",
+    "row_index": 0
+  },
+  {
+    "year": 2016,
+    "issue_date": "2016-01-02",
+    "week": "2016-01-02",
+    "song": "Hello",
+    "artist": "Adele",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2016",
+    "row_index": 1
+  },
+  {
+    "year": 2016,
+    "issue_date": "2016-01-23",
+    "week": "2016-01-23",
+    "song": "Sorry",
+    "artist": "Justin Bieber",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2016",
+    "row_index": 2
+  },
+  {
+    "year": 2016,
+    "issue_date": "2016-02-13",
+    "week": "2016-02-13",
+    "song": "Love Yourself \" †",
+    "artist": "[ 15 ] [ 16 ]",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2016",
+    "row_index": 3
+  },
+  {
+    "year": 2016,
+    "issue_date": "2016-02-20",
+    "week": "2016-02-20",
+    "song": "Pillowtalk",
+    "artist": "Zayn",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2016",
+    "row_index": 4
+  },
+  {
+    "year": 2016,
+    "issue_date": "2016-02-27",
+    "week": "2016-02-27",
+    "song": "Love Yourself\" †",
+    "artist": "Justin Bieber",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2016",
+    "row_index": 5
+  },
+  {
+    "year": 2016,
+    "issue_date": "2016-03-05",
+    "week": "2016-03-05",
+    "song": "Work",
+    "artist": "Rihanna featuring Drake",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2016",
+    "row_index": 6
+  },
+  {
+    "year": 2016,
+    "issue_date": "2016-05-07",
+    "week": "2016-05-07",
+    "song": "Panda",
+    "artist": "Desiigner",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2016",
+    "row_index": 7
+  },
+  {
+    "year": 2016,
+    "issue_date": "2016-05-21",
+    "week": "2016-05-21",
+    "song": "One Dance",
+    "artist": "Drake featuring Wizkid and Kyla",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2016",
+    "row_index": 8
+  },
+  {
+    "year": 2016,
+    "issue_date": "2016-05-28",
+    "week": "2016-05-28",
+    "song": "Can't Stop the Feeling!",
+    "artist": "Justin Timberlake",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2016",
+    "row_index": 9
+  },
+  {
+    "year": 2016,
+    "issue_date": "2016-06-04",
+    "week": "2016-06-04",
+    "song": "One Dance",
+    "artist": "Drake featuring Wizkid and Kyla",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2016",
+    "row_index": 10
+  },
+  {
+    "year": 2016,
+    "issue_date": "2016-08-06",
+    "week": "2016-08-06",
+    "song": "Cheap Thrills",
+    "artist": "Sia featuring Sean Paul",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2016",
+    "row_index": 11
+  },
+  {
+    "year": 2016,
+    "issue_date": "2016-09-03",
+    "week": "2016-09-03",
+    "song": "Closer",
+    "artist": "The Chainsmokers featuring Halsey",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2016",
+    "row_index": 12
+  },
+  {
+    "year": 2016,
+    "issue_date": "2016-11-26",
+    "week": "2016-11-26",
+    "song": "Black Beatles",
+    "artist": "Rae Sremmurd featuring Gucci Mane",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2016",
+    "row_index": 13
+  }
+]

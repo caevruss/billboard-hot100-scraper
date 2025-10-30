@@ -1,0 +1,146 @@
+[
+  {
+    "year": 1999,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 0
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-01-02",
+    "week": "1999-01-02",
+    "song": "I'm Your Angel",
+    "artist": "R. Kelly and Céline Dion",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 1
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-01-16",
+    "week": "1999-01-16",
+    "song": "Have You Ever?",
+    "artist": "Brandy",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 2
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-01-30",
+    "week": "1999-01-30",
+    "song": "...Baby One More Time",
+    "artist": "Britney Spears",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 3
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-02-13",
+    "week": "1999-02-13",
+    "song": "Angel of Mine",
+    "artist": "Monica",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 4
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-03-13",
+    "week": "1999-03-13",
+    "song": "Believe \"†",
+    "artist": "Cher",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 5
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-04-10",
+    "week": "1999-04-10",
+    "song": "No Scrubs",
+    "artist": "TLC",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 6
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-05-08",
+    "week": "1999-05-08",
+    "song": "Livin' la Vida Loca",
+    "artist": "Ricky Martin",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 7
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-06-12",
+    "week": "1999-06-12",
+    "song": "If You Had My Love",
+    "artist": "Jennifer Lopez",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 8
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-07-17",
+    "week": "1999-07-17",
+    "song": "Bills, Bills, Bills",
+    "artist": "Destiny's Child",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 9
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-07-24",
+    "week": "1999-07-24",
+    "song": "Wild Wild West",
+    "artist": "Will Smith featuring Dru Hill and Kool Moe Dee",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 10
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-07-31",
+    "week": "1999-07-31",
+    "song": "Genie in a Bottle",
+    "artist": "Christina Aguilera",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 11
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-09-04",
+    "week": "1999-09-04",
+    "song": "Bailamos",
+    "artist": "Enrique Iglesias",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 12
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-09-18",
+    "week": "1999-09-18",
+    "song": "Unpretty",
+    "artist": "TLC",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 13
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-10-09",
+    "week": "1999-10-09",
+    "song": "Heartbreaker",
+    "artist": "Mariah Carey featuring Jay-Z",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 14
+  },
+  {
+    "year": 1999,
+    "issue_date": "1999-10-23",
+    "week": "1999-10-23",
+    "song": "Smooth",
+    "artist": "Santana featuring Rob Thomas",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1999",
+    "row_index": 15
+  }
+]

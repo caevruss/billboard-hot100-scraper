@@ -1,0 +1,128 @@
+[
+  {
+    "year": 1992,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1992",
+    "row_index": 0
+  },
+  {
+    "year": 1992,
+    "issue_date": "1992-01-04",
+    "week": "1992-01-04",
+    "song": "Black or White",
+    "artist": "Michael Jackson",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1992",
+    "row_index": 1
+  },
+  {
+    "year": 1992,
+    "issue_date": "1992-01-25",
+    "week": "1992-01-25",
+    "song": "All 4 Love",
+    "artist": "Color Me Badd",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1992",
+    "row_index": 2
+  },
+  {
+    "year": 1992,
+    "issue_date": "1992-02-01",
+    "week": "1992-02-01",
+    "song": "Don't Let the Sun Go Down on Me",
+    "artist": "George Michael and Elton John",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1992",
+    "row_index": 3
+  },
+  {
+    "year": 1992,
+    "issue_date": "1992-02-08",
+    "week": "1992-02-08",
+    "song": "I'm Too Sexy",
+    "artist": "Right Said Fred",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1992",
+    "row_index": 4
+  },
+  {
+    "year": 1992,
+    "issue_date": "1992-02-29",
+    "week": "1992-02-29",
+    "song": "To Be with You",
+    "artist": "Mr. Big",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1992",
+    "row_index": 5
+  },
+  {
+    "year": 1992,
+    "issue_date": "1992-03-21",
+    "week": "1992-03-21",
+    "song": "Save the Best for Last",
+    "artist": "Vanessa Williams",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1992",
+    "row_index": 6
+  },
+  {
+    "year": 1992,
+    "issue_date": "1992-04-25",
+    "week": "1992-04-25",
+    "song": "Jump",
+    "artist": "Kris Kross",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1992",
+    "row_index": 7
+  },
+  {
+    "year": 1992,
+    "issue_date": "1992-06-20",
+    "week": "1992-06-20",
+    "song": "I'll Be There",
+    "artist": "Mariah Carey",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1992",
+    "row_index": 8
+  },
+  {
+    "year": 1992,
+    "issue_date": "1992-07-04",
+    "week": "1992-07-04",
+    "song": "Baby Got Back",
+    "artist": "Sir Mix-a-Lot",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1992",
+    "row_index": 9
+  },
+  {
+    "year": 1992,
+    "issue_date": "1992-08-08",
+    "week": "1992-08-08",
+    "song": "This Used to Be My Playground",
+    "artist": "Madonna",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1992",
+    "row_index": 10
+  },
+  {
+    "year": 1992,
+    "issue_date": "1992-08-15",
+    "week": "1992-08-15",
+    "song": "End of the Road",
+    "artist": "Boyz II Men",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1992",
+    "row_index": 11
+  },
+  {
+    "year": 1992,
+    "issue_date": "1992-11-14",
+    "week": "1992-11-14",
+    "song": "How Do You Talk to an Angel",
+    "artist": "The Heights",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1992",
+    "row_index": 12
+  },
+  {
+    "year": 1992,
+    "issue_date": "1992-11-28",
+    "week": "1992-11-28",
+    "song": "I Will Always Love You",
+    "artist": "Whitney Houston",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1992",
+    "row_index": 13
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "year": 2022,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 0
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-01-01",
+    "week": "2022-01-01",
+    "song": "All I Want for Christmas Is You",
+    "artist": "Mariah Carey",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 1
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-01-15",
+    "week": "2022-01-15",
+    "song": "Easy on Me",
+    "artist": "Adele",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 2
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-02-05",
+    "week": "2022-02-05",
+    "song": "We Don't Talk About Bruno",
+    "artist": "Carolina Gaitán , Mauro Castillo, Adassa , Rhenzy Feliz , Diane Guerrero , Stephanie Beatriz and the Encanto cast",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 3
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-03-12",
+    "week": "2022-03-12",
+    "song": "Heat Waves \" †",
+    "artist": "Glass Animals",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 4
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-04-16",
+    "week": "2022-04-16",
+    "song": "As It Was",
+    "artist": "Harry Styles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 5
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-04-23",
+    "week": "2022-04-23",
+    "song": "First Class",
+    "artist": "Jack Harlow",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 6
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-04-30",
+    "week": "2022-04-30",
+    "song": "As It Was",
+    "artist": "Harry Styles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 7
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-05-14",
+    "week": "2022-05-14",
+    "song": "Wait for U",
+    "artist": "Future featuring Drake and Tems",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 8
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-05-21",
+    "week": "2022-05-21",
+    "song": "First Class",
+    "artist": "Jack Harlow",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 9
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-06-04",
+    "week": "2022-06-04",
+    "song": "As It Was",
+    "artist": "Harry Styles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 10
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-07-02",
+    "week": "2022-07-02",
+    "song": "Jimmy Cooks",
+    "artist": "Drake featuring 21 Savage",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 11
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-07-09",
+    "week": "2022-07-09",
+    "song": "As It Was",
+    "artist": "Harry Styles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 12
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-07-30",
+    "week": "2022-07-30",
+    "song": "About Damn Time",
+    "artist": "Lizzo",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 13
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-08-13",
+    "week": "2022-08-13",
+    "song": "Break My Soul",
+    "artist": "Beyoncé",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 14
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-08-27",
+    "week": "2022-08-27",
+    "song": "Super Freaky Girl",
+    "artist": "Nicki Minaj",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 15
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-09-03",
+    "week": "2022-09-03",
+    "song": "As It Was",
+    "artist": "Harry Styles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 16
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-10-08",
+    "week": "2022-10-08",
+    "song": "Bad Habit",
+    "artist": "Steve Lacy",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 17
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-10-29",
+    "week": "2022-10-29",
+    "song": "Unholy",
+    "artist": "Sam Smith and Kim Petras",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 18
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-11-05",
+    "week": "2022-11-05",
+    "song": "Anti-Hero",
+    "artist": "Taylor Swift",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 19
+  },
+  {
+    "year": 2022,
+    "issue_date": "2022-12-17",
+    "week": "2022-12-17",
+    "song": "All I Want for Christmas Is You",
+    "artist": "Mariah Carey",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2022",
+    "row_index": 20
+  }
+]

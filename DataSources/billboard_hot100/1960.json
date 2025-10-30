@@ -1,0 +1,191 @@
+[
+  {
+    "year": 1960,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 0
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-01-04",
+    "week": "1960-01-04",
+    "song": "El Paso",
+    "artist": "Marty Robbins",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 1
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-01-18",
+    "week": "1960-01-18",
+    "song": "Running Bear",
+    "artist": "Johnny Preston",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 2
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-02-08",
+    "week": "1960-02-08",
+    "song": "Teen Angel",
+    "artist": "Mark Dinning",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 3
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-02-22",
+    "week": "1960-02-22",
+    "song": "Theme from A Summer Place",
+    "artist": "Percy Faith",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 4
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-04-25",
+    "week": "1960-04-25",
+    "song": "Stuck on You",
+    "artist": "Elvis Presley",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 5
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-05-23",
+    "week": "1960-05-23",
+    "song": "Cathy's Clown",
+    "artist": "The Everly Brothers",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 6
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-06-27",
+    "week": "1960-06-27",
+    "song": "Everybody's Somebody's Fool",
+    "artist": "Connie Francis",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 7
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-07-11",
+    "week": "1960-07-11",
+    "song": "Alley Oop",
+    "artist": "Hollywood Argyles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 8
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-07-18",
+    "week": "1960-07-18",
+    "song": "I'm Sorry",
+    "artist": "Brenda Lee",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 9
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-08-08",
+    "week": "1960-08-08",
+    "song": "Itsy Bitsy Teenie Weenie Yellow Polkadot Bikini",
+    "artist": "Brian Hyland",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 10
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-08-15",
+    "week": "1960-08-15",
+    "song": "It's Now or Never",
+    "artist": "Elvis Presley",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 11
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-09-19",
+    "week": "1960-09-19",
+    "song": "The Twist",
+    "artist": "Chubby Checker",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 12
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-09-26",
+    "week": "1960-09-26",
+    "song": "My Heart Has a Mind of Its Own",
+    "artist": "Connie Francis",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 13
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-10-10",
+    "week": "1960-10-10",
+    "song": "Mr. Custer",
+    "artist": "Larry Verne",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 14
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-10-17",
+    "week": "1960-10-17",
+    "song": "Save the Last Dance for Me",
+    "artist": "The Drifters",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 15
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-10-24",
+    "week": "1960-10-24",
+    "song": "I Want to Be Wanted",
+    "artist": "Brenda Lee",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 16
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-10-31",
+    "week": "1960-10-31",
+    "song": "Save the Last Dance for Me",
+    "artist": "The Drifters",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 17
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-11-14",
+    "week": "1960-11-14",
+    "song": "Georgia on My Mind",
+    "artist": "Ray Charles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 18
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-11-21",
+    "week": "1960-11-21",
+    "song": "Stay",
+    "artist": "Maurice Williams and the Zodiacs",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 19
+  },
+  {
+    "year": 1960,
+    "issue_date": "1960-11-28",
+    "week": "1960-11-28",
+    "song": "Are You Lonesome Tonight?",
+    "artist": "Elvis Presley",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1960",
+    "row_index": 20
+  }
+]

@@ -1,0 +1,263 @@
+[
+  {
+    "year": 1965,
+    "issue_date": null,
+    "week": null,
+    "song": "Song",
+    "artist": "Artist(s)",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 0
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-01-02",
+    "week": "1965-01-02",
+    "song": "I Feel Fine",
+    "artist": "The Beatles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 1
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-01-16",
+    "week": "1965-01-16",
+    "song": "Come See About Me",
+    "artist": "The Supremes",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 2
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-01-23",
+    "week": "1965-01-23",
+    "song": "Downtown",
+    "artist": "Petula Clark",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 3
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-02-06",
+    "week": "1965-02-06",
+    "song": "You've Lost That Lovin' Feelin",
+    "artist": "The Righteous Brothers",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 4
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-02-20",
+    "week": "1965-02-20",
+    "song": "This Diamond Ring",
+    "artist": "Gary Lewis & the Playboys",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 5
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-03-06",
+    "week": "1965-03-06",
+    "song": "My Girl",
+    "artist": "The Temptations",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 6
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-03-13",
+    "week": "1965-03-13",
+    "song": "Eight Days a Week",
+    "artist": "The Beatles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 7
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-03-27",
+    "week": "1965-03-27",
+    "song": "Stop! In the Name of Love",
+    "artist": "The Supremes",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 8
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-04-10",
+    "week": "1965-04-10",
+    "song": "I'm Telling You Now",
+    "artist": "Freddie and the Dreamers",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 9
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-04-24",
+    "week": "1965-04-24",
+    "song": "The Game of Love",
+    "artist": "Wayne Fontana and the Mindbenders",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 10
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-05-01",
+    "week": "1965-05-01",
+    "song": "Mrs. Brown, You've Got a Lovely Daughter",
+    "artist": "Herman's Hermits",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 11
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-05-22",
+    "week": "1965-05-22",
+    "song": "Ticket to Ride",
+    "artist": "The Beatles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 12
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-05-29",
+    "week": "1965-05-29",
+    "song": "Help Me, Rhonda",
+    "artist": "The Beach Boys",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 13
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-06-12",
+    "week": "1965-06-12",
+    "song": "Back in My Arms Again",
+    "artist": "The Supremes",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 14
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-06-19",
+    "week": "1965-06-19",
+    "song": "I Can't Help Myself (Sugar Pie Honey Bunch)",
+    "artist": "Four Tops",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 15
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-06-26",
+    "week": "1965-06-26",
+    "song": "Mr. Tambourine Man",
+    "artist": "The Byrds",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 16
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-07-03",
+    "week": "1965-07-03",
+    "song": "I Can't Help Myself (Sugar Pie Honey Bunch)",
+    "artist": "Four Tops",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 17
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-07-10",
+    "week": "1965-07-10",
+    "song": "(I Can't Get No) Satisfaction",
+    "artist": "The Rolling Stones",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 18
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-08-07",
+    "week": "1965-08-07",
+    "song": "I'm Henry VIII, I Am",
+    "artist": "Herman's Hermits",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 19
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-08-14",
+    "week": "1965-08-14",
+    "song": "I Got You Babe",
+    "artist": "Sonny & Cher",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 20
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-09-04",
+    "week": "1965-09-04",
+    "song": "Help!",
+    "artist": "The Beatles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 21
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-09-25",
+    "week": "1965-09-25",
+    "song": "Eve of Destruction",
+    "artist": "Barry McGuire",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 22
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-10-02",
+    "week": "1965-10-02",
+    "song": "Hang On Sloopy",
+    "artist": "The McCoys",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 23
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-10-09",
+    "week": "1965-10-09",
+    "song": "Yesterday",
+    "artist": "The Beatles",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 24
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-11-06",
+    "week": "1965-11-06",
+    "song": "Get Off of My Cloud",
+    "artist": "The Rolling Stones",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 25
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-11-20",
+    "week": "1965-11-20",
+    "song": "I Hear a Symphony",
+    "artist": "The Supremes",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 26
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-12-04",
+    "week": "1965-12-04",
+    "song": "Turn! Turn! Turn! (To Everything There Is a Season)",
+    "artist": "The Byrds",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 27
+  },
+  {
+    "year": 1965,
+    "issue_date": "1965-12-25",
+    "week": "1965-12-25",
+    "song": "Over and Over",
+    "artist": "The Dave Clark Five",
+    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965",
+    "row_index": 28
+  }
+]
