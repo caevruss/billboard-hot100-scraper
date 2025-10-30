@@ -21,41 +21,28 @@ jobs:
       - name: Set git safe.directory
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-      - name: Show workspace layout (before)
-        run: |
-          echo "PWD=$(pwd)"
-          ls -al
-          echo "---- Tools ----"
-          ls -al Tools || true
-          echo "---- DataSources ----"
-          ls -al DataSources || true
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"   # Not: cache yok; requirements dosyası kullanmıyorsak kapalı tutalım.
+          python-version: "3.12"
 
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml
           python -V
-          python - << 'PY'
-import sys, pkgutil
-print("Installed packages snapshot:")
-print(sorted([m.name for m in pkgutil.iter_modules() if m.name in ("requests","bs4","lxml")]))
-PY
+          python -c "import requests, bs4, lxml; print('requests', requests.__version__); print('bs4', bs4.__version__); print('lxml', lxml.__version__)"
 
-      - name: Run scraper (with verbose debug)
+      - name: Run scraper
+        working-directory: Tools
         env:
           PYTHONUNBUFFERED: "1"
-        run: |
-          set -xe
-          python -u Tools/update_billboard.py
+        run: python -u update_billboard.py
 
-      - name: Show generated files (after)
+      - name: Show generated files
         if: always()
         run: |
+          echo "---- DataSources ----"
           ls -al DataSources || true
           echo "--- weekly.csv line count ---"
           wc -l DataSources/billboard_hot100_weekly.csv || true
