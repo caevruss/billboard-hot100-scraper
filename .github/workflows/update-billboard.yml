@@ -4,7 +4,7 @@ name: Update Billboard Hot 100
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "0 6 * * 1"
+    - cron: "0 6 * * 1"   # Pazartesi 06:00 UTC
 
 permissions:
   contents: write
@@ -13,35 +13,59 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           persist-credentials: true
 
       - name: Set git safe.directory
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-      - uses: actions/setup-python@v5
+      - name: Show workspace layout (before)
+        run: |
+          echo "PWD=$(pwd)"
+          ls -al
+          echo "---- Tools ----"
+          ls -al Tools || true
+          echo "---- DataSources ----"
+          ls -al DataSources || true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.12"   # <-- cache satırı yok
+          python-version: "3.12"   # Not: cache yok; requirements dosyası kullanmıyorsak kapalı tutalım.
 
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml
+          python -V
+          python - << 'PY'
+import sys, pkgutil
+print("Installed packages snapshot:")
+print(sorted([m.name for m in pkgutil.iter_modules() if m.name in ("requests","bs4","lxml")]))
+PY
 
-      - name: Run scraper
-        working-directory: Tools
-        run: python -u update_billboard.py
-
-      - name: Show generated files
+      - name: Run scraper (with verbose debug)
+        env:
+          PYTHONUNBUFFERED: "1"
         run: |
-          ls -al DataSources
+          set -xe
+          python -u Tools/update_billboard.py
+
+      - name: Show generated files (after)
+        if: always()
+        run: |
+          ls -al DataSources || true
           echo "--- weekly.csv line count ---"
           wc -l DataSources/billboard_hot100_weekly.csv || true
           echo "--- weekly.csv head ---"
           head -n 10 DataSources/billboard_hot100_weekly.csv || true
+          echo "--- billboard_hot100 dir ---"
+          ls -al DataSources/billboard_hot100 || true
 
       - name: Commit changes (if any)
+        if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
