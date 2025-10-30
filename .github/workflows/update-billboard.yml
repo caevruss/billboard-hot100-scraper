@@ -1,43 +1,35 @@
 name: Update Billboard Hot 100 JSON
 
 on:
-  workflow_dispatch: {}            # Elle tetiklemek için
+  workflow_dispatch: {}
   schedule:
-    - cron: "0 6 * * 1"            # Haftada 1 (Pazartesi 06:00 UTC), ihtiyaca göre değiştir
+    - cron: "0 6 * * 1"   # Pazartesi 06:00 UTC
 
 permissions:
-  contents: write                  # GITHUB_TOKEN ile commit/push
+  contents: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           persist-credentials: true
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Install deps (requests, bs4, lxml)
+      - name: Install deps
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml
-
       - name: Run scraper
         working-directory: Tools
         run: |
           python -u update_billboard.py
-
       - name: Commit changes (if any)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Sadece değişiklik varsa commit et
           if ! git diff --quiet; then
             git add -A
             git commit -m "chore: auto-update Billboard JSON ($(date -u +'%Y-%m-%d'))"
@@ -45,4 +37,3 @@ jobs:
           else
             echo "No changes to commit."
           fi
-
