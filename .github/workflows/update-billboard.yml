@@ -1,10 +1,9 @@
-# .github/workflows/update_billboard.yml
 name: Update Billboard Hot 100
 
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "0 6 * * 1"   # Pazartesi 06:00 UTC
+    - cron: "0 6 * * 1" 
 
 permissions:
   contents: write
