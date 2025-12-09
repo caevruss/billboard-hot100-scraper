@@ -48,8 +48,6 @@ RETRY_SLEEP = 2.5
 START_YEAR = 1958
 THIS_YEAR = datetime.utcnow().year
 
-# ---------------------------- Veri Modeli ----------------------------
-
 @dataclass
 class WeekRow:
     year: int
@@ -57,10 +55,6 @@ class WeekRow:
     week: Optional[str]        # Bazı yıllarda 'Date' tek hücre olabilir
     song: str
     artist: str
-    source: str                # yıl sayfa URL'i
-    row_index: int             # tabloda satır sıra
-
-# ---------------------------- Yardımcılar ----------------------------
 
 logging.basicConfig(
     level=logging.INFO,
@@ -179,21 +173,51 @@ def extract_rows_for_year(html: str, year: int, source_url: str) -> List[WeekRow
 
         # Tablonun veri satırlarını yürü
         body = table.find("tbody") or table
-        row_idx = 0
+
         for tr in body.find_all("tr"):
             tds = tr.find_all(["td", "th"])
             if len(tds) < 2:  # boş/başlık alt satır
                 continue
 
-            # şarkı-artist zorunlu
+            # şarkı-artist zorunlu (header hariç)
             try:
                 song_cell = tds[hmap["song"]]
                 artist_cell = tds[hmap["artist"]]
             except Exception:
                 continue
 
-            song = norm_text(song_cell.get_text(" "))
-            artist = norm_text(artist_cell.get_text(" "))
+            song_raw = norm_text(song_cell.get_text(" "))
+            artist_raw = norm_text(artist_cell.get_text(" "))
+
+            # --- HEADER SATIRINI YAKALA: "Song [..]" + "Artist(s)" ---
+            song_low = song_raw.lower()
+            artist_low = artist_raw.lower()
+
+            is_header_row = (
+                (
+                    "song" in song_low
+                    or "single" in song_low
+                    or "title" in song_low
+                )
+                and "artist" in artist_low
+            )
+
+            if is_header_row:
+                # Bu satırı yıl başlığı olarak yaz: sadece yıl dolu, kalan her şey boş
+                rows.append(
+                    WeekRow(
+                        year=year,
+                        issue_date=None,
+                        week=None,
+                        song="",
+                        artist=""
+                    )
+                )
+                continue  # Gerçek veri gibi işleme
+
+            song = song_raw
+            artist = artist_raw
+
             if not song or not artist:
                 continue
 
@@ -208,11 +232,8 @@ def extract_rows_for_year(html: str, year: int, source_url: str) -> List[WeekRow
                 week=issue_iso,  # "week" olarak da aynı değeri taşıyabilir; geriye dönük uyum
                 song=song.strip("“”\"' "),
                 artist=artist.strip("“”\"' "),
-                source=source_url,
-                row_index=row_idx
             )
             rows.append(row)
-            row_idx += 1
 
     return rows
 
@@ -280,7 +301,9 @@ def main() -> int:
 
 def write_combined_csv(rows: List[Dict]) -> str:
     csv_path = os.path.join(REPO_ROOT, "DataSources", "billboard_hot100_weekly.csv")
-    fieldnames = ["year", "issue_date", "week", "song", "artist", "source", "row_index"]
+    # Sadece bu 5 kolon kalsın
+    fieldnames = ["year", "issue_date", "week", "song", "artist"]
+
     with open(csv_path, "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames)
         w.writeheader()
@@ -291,12 +314,9 @@ def write_combined_csv(rows: List[Dict]) -> str:
                 "week": r.get("week"),
                 "song": r.get("song"),
                 "artist": r.get("artist"),
-                "source": r.get("source"),
-                "row_index": r.get("row_index"),
             })
-    return csv_path
 
-# ---------------------------- Entrypoint ----------------------------
+    return csv_path
 
 if __name__ == "__main__":
     import sys
