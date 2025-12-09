@@ -3,117 +3,91 @@
     "year": 2003,
     "issue_date": null,
     "week": null,
-    "song": "Song",
-    "artist": "Artist(s)",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2003",
-    "row_index": 0
+    "song": "",
+    "artist": ""
   },
   {
     "year": 2003,
     "issue_date": "2003-01-04",
     "week": "2003-01-04",
     "song": "Lose Yourself",
-    "artist": "Eminem",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2003",
-    "row_index": 1
+    "artist": "Eminem"
   },
   {
     "year": 2003,
     "issue_date": "2003-02-01",
     "week": "2003-02-01",
     "song": "Bump, Bump, Bump",
-    "artist": "B2K featuring P. Diddy",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2003",
-    "row_index": 2
+    "artist": "B2K featuring P. Diddy"
   },
   {
     "year": 2003,
     "issue_date": "2003-02-08",
     "week": "2003-02-08",
     "song": "All I Have",
-    "artist": "Jennifer Lopez featuring LL Cool J",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2003",
-    "row_index": 3
+    "artist": "Jennifer Lopez featuring LL Cool J"
   },
   {
     "year": 2003,
     "issue_date": "2003-03-08",
     "week": "2003-03-08",
     "song": "In da Club \" †",
-    "artist": "50 Cent",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2003",
-    "row_index": 4
+    "artist": "50 Cent"
   },
   {
     "year": 2003,
     "issue_date": "2003-05-10",
     "week": "2003-05-10",
     "song": "Get Busy",
-    "artist": "Sean Paul",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2003",
-    "row_index": 5
+    "artist": "Sean Paul"
   },
   {
     "year": 2003,
     "issue_date": "2003-05-31",
     "week": "2003-05-31",
     "song": "21 Questions",
-    "artist": "50 Cent featuring Nate Dogg",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2003",
-    "row_index": 6
+    "artist": "50 Cent featuring Nate Dogg"
   },
   {
     "year": 2003,
     "issue_date": "2003-06-28",
     "week": "2003-06-28",
     "song": "This Is the Night",
-    "artist": "Clay Aiken",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2003",
-    "row_index": 7
+    "artist": "Clay Aiken"
   },
   {
     "year": 2003,
     "issue_date": "2003-07-12",
     "week": "2003-07-12",
     "song": "Crazy in Love",
-    "artist": "Beyoncé featuring Jay-Z",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2003",
-    "row_index": 8
+    "artist": "Beyoncé featuring Jay-Z"
   },
   {
     "year": 2003,
     "issue_date": "2003-09-06",
     "week": "2003-09-06",
     "song": "Shake Ya Tailfeather",
-    "artist": "Nelly , P. Diddy and Murphy Lee",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2003",
-    "row_index": 9
+    "artist": "Nelly , P. Diddy and Murphy Lee"
   },
   {
     "year": 2003,
     "issue_date": "2003-10-04",
     "week": "2003-10-04",
     "song": "Baby Boy",
-    "artist": "Beyoncé featuring Sean Paul",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2003",
-    "row_index": 10
+    "artist": "Beyoncé featuring Sean Paul"
   },
   {
     "year": 2003,
     "issue_date": "2003-12-06",
     "week": "2003-12-06",
     "song": "Stand Up",
-    "artist": "Ludacris featuring Shawnna",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2003",
-    "row_index": 11
+    "artist": "Ludacris featuring Shawnna"
   },
   {
     "year": 2003,
     "issue_date": "2003-12-13",
     "week": "2003-12-13",
     "song": "Hey Ya!",
-    "artist": "OutKast",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2003",
-    "row_index": 12
+    "artist": "OutKast"
   }
 ]

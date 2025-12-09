@@ -3,189 +3,147 @@
     "year": 2019,
     "issue_date": null,
     "week": null,
-    "song": "Song",
-    "artist": "Artist(s)",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 0
+    "song": "",
+    "artist": ""
   },
   {
     "year": 2019,
     "issue_date": "2019-01-05",
     "week": "2019-01-05",
     "song": "Thank U, Next",
-    "artist": "Ariana Grande",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 1
+    "artist": "Ariana Grande"
   },
   {
     "year": 2019,
     "issue_date": "2019-01-12",
     "week": "2019-01-12",
     "song": "Without Me",
-    "artist": "Halsey",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 2
+    "artist": "Halsey"
   },
   {
     "year": 2019,
     "issue_date": "2019-01-19",
     "week": "2019-01-19",
     "song": "Sunflower",
-    "artist": "Post Malone and Swae Lee",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 3
+    "artist": "Post Malone and Swae Lee"
   },
   {
     "year": 2019,
     "issue_date": "2019-01-26",
     "week": "2019-01-26",
     "song": "Without Me",
-    "artist": "Halsey",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 4
+    "artist": "Halsey"
   },
   {
     "year": 2019,
     "issue_date": "2019-02-02",
     "week": "2019-02-02",
     "song": "7 Rings",
-    "artist": "Ariana Grande",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 5
+    "artist": "Ariana Grande"
   },
   {
     "year": 2019,
     "issue_date": "2019-03-09",
     "week": "2019-03-09",
     "song": "Shallow",
-    "artist": "Lady Gaga and Bradley Cooper",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 6
+    "artist": "Lady Gaga and Bradley Cooper"
   },
   {
     "year": 2019,
     "issue_date": "2019-03-16",
     "week": "2019-03-16",
     "song": "Sucker",
-    "artist": "Jonas Brothers",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 7
+    "artist": "Jonas Brothers"
   },
   {
     "year": 2019,
     "issue_date": "2019-03-23",
     "week": "2019-03-23",
     "song": "7 Rings",
-    "artist": "Ariana Grande",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 8
+    "artist": "Ariana Grande"
   },
   {
     "year": 2019,
     "issue_date": "2019-04-13",
     "week": "2019-04-13",
     "song": "Old Town Road \" †",
-    "artist": "Lil Nas X",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 9
+    "artist": "Lil Nas X"
   },
   {
     "year": 2019,
     "issue_date": "2019-08-24",
     "week": "2019-08-24",
     "song": "Bad Guy",
-    "artist": "Billie Eilish",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 10
+    "artist": "Billie Eilish"
   },
   {
     "year": 2019,
     "issue_date": "2019-08-31",
     "week": "2019-08-31",
     "song": "Señorita",
-    "artist": "Shawn Mendes and Camila Cabello",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 11
+    "artist": "Shawn Mendes and Camila Cabello"
   },
   {
     "year": 2019,
     "issue_date": "2019-09-07",
     "week": "2019-09-07",
     "song": "Truth Hurts",
-    "artist": "Lizzo",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 12
+    "artist": "Lizzo"
   },
   {
     "year": 2019,
     "issue_date": "2019-10-19",
     "week": "2019-10-19",
     "song": "Highest in the Room",
-    "artist": "Travis Scott",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 13
+    "artist": "Travis Scott"
   },
   {
     "year": 2019,
     "issue_date": "2019-10-26",
     "week": "2019-10-26",
     "song": "Truth Hurts",
-    "artist": "Lizzo",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 14
+    "artist": "Lizzo"
   },
   {
     "year": 2019,
     "issue_date": "2019-11-02",
     "week": "2019-11-02",
     "song": "Someone You Loved",
-    "artist": "Lewis Capaldi",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 15
+    "artist": "Lewis Capaldi"
   },
   {
     "year": 2019,
     "issue_date": "2019-11-09",
     "week": "2019-11-09",
     "song": "Lose You to Love Me",
-    "artist": "Selena Gomez",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 16
+    "artist": "Selena Gomez"
   },
   {
     "year": 2019,
     "issue_date": "2019-11-16",
     "week": "2019-11-16",
     "song": "Someone You Loved",
-    "artist": "Lewis Capaldi",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 17
+    "artist": "Lewis Capaldi"
   },
   {
     "year": 2019,
     "issue_date": "2019-11-30",
     "week": "2019-11-30",
     "song": "Circles",
-    "artist": "Post Malone",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 18
+    "artist": "Post Malone"
   },
   {
     "year": 2019,
     "issue_date": "2019-12-14",
     "week": "2019-12-14",
     "song": "Heartless",
-    "artist": "The Weeknd",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 19
+    "artist": "The Weeknd"
   },
   {
     "year": 2019,
     "issue_date": "2019-12-21",
     "week": "2019-12-21",
     "song": "All I Want for Christmas Is You",
-    "artist": "Mariah Carey",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2019",
-    "row_index": 20
+    "artist": "Mariah Carey"
   }
 ]

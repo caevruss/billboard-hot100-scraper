@@ -3,117 +3,91 @@
     "year": 1995,
     "issue_date": null,
     "week": null,
-    "song": "Song",
-    "artist": "Artist(s)",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1995",
-    "row_index": 0
+    "song": "",
+    "artist": ""
   },
   {
     "year": 1995,
     "issue_date": "1995-01-07",
     "week": "1995-01-07",
     "song": "On Bended Knee",
-    "artist": "Boyz II Men",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1995",
-    "row_index": 1
+    "artist": "Boyz II Men"
   },
   {
     "year": 1995,
     "issue_date": "1995-01-28",
     "week": "1995-01-28",
     "song": "Creep",
-    "artist": "TLC",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1995",
-    "row_index": 2
+    "artist": "TLC"
   },
   {
     "year": 1995,
     "issue_date": "1995-02-25",
     "week": "1995-02-25",
     "song": "Take a Bow",
-    "artist": "Madonna",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1995",
-    "row_index": 3
+    "artist": "Madonna"
   },
   {
     "year": 1995,
     "issue_date": "1995-04-15",
     "week": "1995-04-15",
     "song": "This Is How We Do It",
-    "artist": "Montell Jordan",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1995",
-    "row_index": 4
+    "artist": "Montell Jordan"
   },
   {
     "year": 1995,
     "issue_date": "1995-06-03",
     "week": "1995-06-03",
     "song": "Have You Ever Really Loved a Woman?",
-    "artist": "Bryan Adams",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1995",
-    "row_index": 5
+    "artist": "Bryan Adams"
   },
   {
     "year": 1995,
     "issue_date": "1995-07-08",
     "week": "1995-07-08",
     "song": "Waterfalls",
-    "artist": "TLC",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1995",
-    "row_index": 6
+    "artist": "TLC"
   },
   {
     "year": 1995,
     "issue_date": "1995-08-26",
     "week": "1995-08-26",
     "song": "Kiss from a Rose",
-    "artist": "Seal",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1995",
-    "row_index": 7
+    "artist": "Seal"
   },
   {
     "year": 1995,
     "issue_date": "1995-09-02",
     "week": "1995-09-02",
     "song": "You Are Not Alone",
-    "artist": "Michael Jackson",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1995",
-    "row_index": 8
+    "artist": "Michael Jackson"
   },
   {
     "year": 1995,
     "issue_date": "1995-09-09",
     "week": "1995-09-09",
     "song": "Gangsta's Paradise",
-    "artist": "Coolio featuring L.V.",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1995",
-    "row_index": 9
+    "artist": "Coolio featuring L.V."
   },
   {
     "year": 1995,
     "issue_date": "1995-09-30",
     "week": "1995-09-30",
     "song": "Fantasy",
-    "artist": "Mariah Carey",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1995",
-    "row_index": 10
+    "artist": "Mariah Carey"
   },
   {
     "year": 1995,
     "issue_date": "1995-11-25",
     "week": "1995-11-25",
     "song": "Exhale (Shoop Shoop)",
-    "artist": "Whitney Houston",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1995",
-    "row_index": 11
+    "artist": "Whitney Houston"
   },
   {
     "year": 1995,
     "issue_date": "1995-12-02",
     "week": "1995-12-02",
     "song": "One Sweet Day",
-    "artist": "Mariah Carey and Boyz II Men",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1995",
-    "row_index": 12
+    "artist": "Mariah Carey and Boyz II Men"
   }
 ]

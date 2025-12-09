@@ -3,153 +3,119 @@
     "year": 1968,
     "issue_date": null,
     "week": null,
-    "song": "Song",
-    "artist": "Artist(s)",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 0
+    "song": "",
+    "artist": ""
   },
   {
     "year": 1968,
     "issue_date": "1968-01-06",
     "week": "1968-01-06",
     "song": "Hello, Goodbye",
-    "artist": "The Beatles",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 1
+    "artist": "The Beatles"
   },
   {
     "year": 1968,
     "issue_date": "1968-01-20",
     "week": "1968-01-20",
     "song": "Judy in Disguise (With Glasses)",
-    "artist": "John Fred and His Playboy Band",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 2
+    "artist": "John Fred and His Playboy Band"
   },
   {
     "year": 1968,
     "issue_date": "1968-02-03",
     "week": "1968-02-03",
     "song": "Green Tambourine",
-    "artist": "The Lemon Pipers",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 3
+    "artist": "The Lemon Pipers"
   },
   {
     "year": 1968,
     "issue_date": "1968-02-10",
     "week": "1968-02-10",
     "song": "Love is Blue",
-    "artist": "Paul Mauriat",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 4
+    "artist": "Paul Mauriat"
   },
   {
     "year": 1968,
     "issue_date": "1968-03-16",
     "week": "1968-03-16",
     "song": "(Sittin' On) The Dock of the Bay",
-    "artist": "Otis Redding",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 5
+    "artist": "Otis Redding"
   },
   {
     "year": 1968,
     "issue_date": "1968-04-13",
     "week": "1968-04-13",
     "song": "Honey",
-    "artist": "Bobby Goldsboro",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 6
+    "artist": "Bobby Goldsboro"
   },
   {
     "year": 1968,
     "issue_date": "1968-05-18",
     "week": "1968-05-18",
     "song": "Tighten Up",
-    "artist": "Archie Bell & the Drells",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 7
+    "artist": "Archie Bell & the Drells"
   },
   {
     "year": 1968,
     "issue_date": "1968-06-01",
     "week": "1968-06-01",
     "song": "Mrs. Robinson",
-    "artist": "Simon & Garfunkel",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 8
+    "artist": "Simon & Garfunkel"
   },
   {
     "year": 1968,
     "issue_date": "1968-06-22",
     "week": "1968-06-22",
     "song": "This Guy's in Love with You",
-    "artist": "Herb Alpert",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 9
+    "artist": "Herb Alpert"
   },
   {
     "year": 1968,
     "issue_date": "1968-07-20",
     "week": "1968-07-20",
     "song": "Grazing in the Grass",
-    "artist": "Hugh Masekela",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 10
+    "artist": "Hugh Masekela"
   },
   {
     "year": 1968,
     "issue_date": "1968-08-03",
     "week": "1968-08-03",
     "song": "Hello, I Love You",
-    "artist": "The Doors",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 11
+    "artist": "The Doors"
   },
   {
     "year": 1968,
     "issue_date": "1968-08-17",
     "week": "1968-08-17",
     "song": "People Got to Be Free",
-    "artist": "The Rascals",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 12
+    "artist": "The Rascals"
   },
   {
     "year": 1968,
     "issue_date": "1968-09-21",
     "week": "1968-09-21",
     "song": "Harper Valley PTA",
-    "artist": "Jeannie C. Riley",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 13
+    "artist": "Jeannie C. Riley"
   },
   {
     "year": 1968,
     "issue_date": "1968-09-28",
     "week": "1968-09-28",
     "song": "Hey Jude",
-    "artist": "The Beatles",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 14
+    "artist": "The Beatles"
   },
   {
     "year": 1968,
     "issue_date": "1968-11-30",
     "week": "1968-11-30",
     "song": "Love Child",
-    "artist": "Diana Ross & the Supremes",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 15
+    "artist": "Diana Ross & the Supremes"
   },
   {
     "year": 1968,
     "issue_date": "1968-12-14",
     "week": "1968-12-14",
     "song": "I Heard It Through the Grapevine",
-    "artist": "Marvin Gaye",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1968",
-    "row_index": 16
+    "artist": "Marvin Gaye"
   }
 ]

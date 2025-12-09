@@ -3,135 +3,112 @@
     "year": 2025,
     "issue_date": null,
     "week": null,
-    "song": "Song",
-    "artist": "Artist(s)",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 0
+    "song": "",
+    "artist": ""
   },
   {
     "year": 2025,
     "issue_date": "2025-01-04",
     "week": "2025-01-04",
     "song": "All I Want for Christmas Is You",
-    "artist": "Mariah Carey",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 1
+    "artist": "Mariah Carey"
   },
   {
     "year": 2025,
     "issue_date": "2025-01-11",
     "week": "2025-01-11",
     "song": "Die with a Smile",
-    "artist": "Lady Gaga and Bruno Mars",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 2
+    "artist": "Lady Gaga and Bruno Mars"
   },
   {
     "year": 2025,
     "issue_date": "2025-02-08",
     "week": "2025-02-08",
     "song": "4x4",
-    "artist": "Travis Scott",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 3
+    "artist": "Travis Scott"
   },
   {
     "year": 2025,
     "issue_date": "2025-02-15",
     "week": "2025-02-15",
     "song": "Die with a Smile",
-    "artist": "Lady Gaga and Bruno Mars",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 4
+    "artist": "Lady Gaga and Bruno Mars"
   },
   {
     "year": 2025,
     "issue_date": "2025-02-22",
     "week": "2025-02-22",
     "song": "Not Like Us",
-    "artist": "Kendrick Lamar",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 5
+    "artist": "Kendrick Lamar"
   },
   {
     "year": 2025,
     "issue_date": "2025-03-01",
     "week": "2025-03-01",
     "song": "Luther",
-    "artist": "Kendrick Lamar and SZA",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 6
+    "artist": "Kendrick Lamar and SZA"
   },
   {
     "year": 2025,
     "issue_date": "2025-05-31",
     "week": "2025-05-31",
     "song": "What I Want",
-    "artist": "Morgan Wallen featuring Tate McRae",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 7
+    "artist": "Morgan Wallen featuring Tate McRae"
   },
   {
     "year": 2025,
     "issue_date": "2025-06-07",
     "week": "2025-06-07",
     "song": "Ordinary",
-    "artist": "Alex Warren",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 8
+    "artist": "Alex Warren"
   },
   {
     "year": 2025,
     "issue_date": "2025-06-21",
     "week": "2025-06-21",
     "song": "Manchild",
-    "artist": "Sabrina Carpenter",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 9
+    "artist": "Sabrina Carpenter"
   },
   {
     "year": 2025,
     "issue_date": "2025-06-28",
     "week": "2025-06-28",
     "song": "Ordinary",
-    "artist": "Alex Warren",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 10
+    "artist": "Alex Warren"
   },
   {
     "year": 2025,
     "issue_date": "2025-08-16",
     "week": "2025-08-16",
     "song": "Golden",
-    "artist": "Huntrix : Ejae , Audrey Nuna and Rei Ami",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 11
+    "artist": "Huntrix : Ejae , Audrey Nuna and Rei Ami"
   },
   {
     "year": 2025,
     "issue_date": "2025-08-23",
     "week": "2025-08-23",
     "song": "Ordinary",
-    "artist": "Alex Warren",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 12
+    "artist": "Alex Warren"
   },
   {
     "year": 2025,
     "issue_date": "2025-08-30",
     "week": "2025-08-30",
     "song": "Golden",
-    "artist": "Huntrix: Ejae, Audrey Nuna and Rei Ami",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 13
+    "artist": "Huntrix: Ejae, Audrey Nuna and Rei Ami"
   },
   {
     "year": 2025,
     "issue_date": "2025-10-18",
     "week": "2025-10-18",
     "song": "The Fate of Ophelia",
-    "artist": "Taylor Swift",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2025",
-    "row_index": 14
+    "artist": "Taylor Swift"
+  },
+  {
+    "year": 2025,
+    "issue_date": "2025-12-13",
+    "week": "2025-12-13",
+    "song": "All I Want for Christmas Is You",
+    "artist": "Mariah Carey"
   }
 ]

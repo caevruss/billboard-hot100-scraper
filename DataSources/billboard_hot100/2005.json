@@ -3,90 +3,70 @@
     "year": 2005,
     "issue_date": null,
     "week": null,
-    "song": "Song",
-    "artist": "Artist(s)",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2005",
-    "row_index": 0
+    "song": "",
+    "artist": ""
   },
   {
     "year": 2005,
     "issue_date": "2005-01-01",
     "week": "2005-01-01",
     "song": "Let Me Love You",
-    "artist": "Mario",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2005",
-    "row_index": 1
+    "artist": "Mario"
   },
   {
     "year": 2005,
     "issue_date": "2005-03-05",
     "week": "2005-03-05",
     "song": "Candy Shop",
-    "artist": "50 Cent featuring Olivia",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2005",
-    "row_index": 2
+    "artist": "50 Cent featuring Olivia"
   },
   {
     "year": 2005,
     "issue_date": "2005-05-07",
     "week": "2005-05-07",
     "song": "Hollaback Girl",
-    "artist": "Gwen Stefani",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2005",
-    "row_index": 3
+    "artist": "Gwen Stefani"
   },
   {
     "year": 2005,
     "issue_date": "2005-06-04",
     "week": "2005-06-04",
     "song": "We Belong Together \"†",
-    "artist": "Mariah Carey",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2005",
-    "row_index": 4
+    "artist": "Mariah Carey"
   },
   {
     "year": 2005,
     "issue_date": "2005-07-02",
     "week": "2005-07-02",
     "song": "Inside Your Heaven",
-    "artist": "Carrie Underwood",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2005",
-    "row_index": 5
+    "artist": "Carrie Underwood"
   },
   {
     "year": 2005,
     "issue_date": "2005-07-09",
     "week": "2005-07-09",
     "song": "We Belong Together\"†",
-    "artist": "Mariah Carey",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2005",
-    "row_index": 6
+    "artist": "Mariah Carey"
   },
   {
     "year": 2005,
     "issue_date": "2005-09-17",
     "week": "2005-09-17",
     "song": "Gold Digger",
-    "artist": "Kanye West featuring Jamie Foxx",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2005",
-    "row_index": 7
+    "artist": "Kanye West featuring Jamie Foxx"
   },
   {
     "year": 2005,
     "issue_date": "2005-11-26",
     "week": "2005-11-26",
     "song": "Run It!",
-    "artist": "Chris Brown",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2005",
-    "row_index": 8
+    "artist": "Chris Brown"
   },
   {
     "year": 2005,
     "issue_date": "2005-12-31",
     "week": "2005-12-31",
     "song": "Don't Forget About Us",
-    "artist": "Mariah Carey",
-    "source": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2005",
-    "row_index": 9
+    "artist": "Mariah Carey"
   }
 ]
