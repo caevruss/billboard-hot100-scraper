@@ -851,14 +851,14 @@
     "issue_date": "1964-03-21",
     "week": "1964-03-21",
     "song": "She Loves You",
-    "artist": "[ 12 ]"
+    "artist": "[ 31 ]"
   },
   {
     "year": 1964,
     "issue_date": "1964-04-04",
     "week": "1964-04-04",
     "song": "Can't Buy Me Love",
-    "artist": "[ 14 ]"
+    "artist": "[ 33 ]"
   },
   {
     "year": 1964,
@@ -10092,5 +10092,12 @@
     "week": "2026-01-10",
     "song": "The Fate of Ophelia",
     "artist": "Taylor Swift"
+  },
+  {
+    "year": 2026,
+    "issue_date": "2026-01-24",
+    "week": "2026-01-24",
+    "song": "I Just Might",
+    "artist": "Bruno Mars"
   }
 ]

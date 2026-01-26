@@ -120,8 +120,8 @@ year,issue_date,week,song,artist
 1964,,,,
 1964,1964-01-04,1964-01-04,There! I've Said It Again,Bobby Vinton
 1964,1964-02-01,1964-02-01,I Want to Hold Your Hand,The Beatles
-1964,1964-03-21,1964-03-21,She Loves You,[ 12 ]
-1964,1964-04-04,1964-04-04,Can't Buy Me Love,[ 14 ]
+1964,1964-03-21,1964-03-21,She Loves You,[ 31 ]
+1964,1964-04-04,1964-04-04,Can't Buy Me Love,[ 33 ]
 1964,1964-05-09,1964-05-09,"Hello, Dolly!",Louis Armstrong
 1964,1964-05-16,1964-05-16,My Guy,Mary Wells
 1964,1964-05-30,1964-05-30,Love Me Do,The Beatles
@@ -1441,3 +1441,4 @@ year,issue_date,week,song,artist
 2026,,,,
 2026,2026-01-03,2026-01-03,All I Want for Christmas Is You,Mariah Carey
 2026,2026-01-10,2026-01-10,The Fate of Ophelia,Taylor Swift
+2026,2026-01-24,2026-01-24,I Just Might,Bruno Mars
