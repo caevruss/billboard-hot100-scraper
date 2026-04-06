@@ -1257,7 +1257,7 @@
     "issue_date": "1966-03-05",
     "week": "1966-03-05",
     "song": "The Ballad of the Green Berets",
-    "artist": "SSgt Barry Sadler"
+    "artist": "SSgt. Barry Sadler"
   },
   {
     "year": 1966,
@@ -10148,5 +10148,12 @@
     "week": "2026-03-21",
     "song": "Choosin' Texas",
     "artist": "Ella Langley"
+  },
+  {
+    "year": 2026,
+    "issue_date": "2026-04-04",
+    "week": "2026-04-04",
+    "song": "Swim",
+    "artist": "BTS"
   }
 ]
