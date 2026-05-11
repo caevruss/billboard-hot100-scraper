@@ -452,7 +452,7 @@
     "issue_date": "1961-06-26",
     "week": "1961-06-26",
     "song": "Quarter to Three",
-    "artist": "Gary U.S. Bonds"
+    "artist": "U.S. Bonds"
   },
   {
     "year": 1961,
@@ -10169,5 +10169,12 @@
     "week": "2026-05-02",
     "song": "Drop Dead",
     "artist": "Olivia Rodrigo"
+  },
+  {
+    "year": 2026,
+    "issue_date": "2026-05-09",
+    "week": "2026-05-09",
+    "song": "Choosin' Texas",
+    "artist": "Ella Langley"
   }
 ]
