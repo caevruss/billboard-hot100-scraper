@@ -1599,7 +1599,7 @@
     "year": 1968,
     "issue_date": "1968-02-10",
     "week": "1968-02-10",
-    "song": "Love is Blue",
+    "song": "Love Is Blue",
     "artist": "Paul Mauriat"
   },
   {
@@ -2159,7 +2159,7 @@
     "year": 1972,
     "issue_date": "1972-04-15",
     "week": "1972-04-15",
-    "song": "The First Time Ever I Saw Your Face \"†",
+    "song": "The First Time Ever I Saw Your Face",
     "artist": "Roberta Flack"
   },
   {
@@ -10183,5 +10183,12 @@
     "week": "2026-05-30",
     "song": "Janice STFU",
     "artist": "Drake"
+  },
+  {
+    "year": 2026,
+    "issue_date": "2026-06-13",
+    "week": "2026-06-13",
+    "song": "Hate That I Made You Love Me",
+    "artist": "Ariana Grande"
   }
 ]
