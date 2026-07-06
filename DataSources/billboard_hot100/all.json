@@ -17,7 +17,7 @@
     "year": 1958,
     "issue_date": "1958-08-18",
     "week": "1958-08-18",
-    "song": "Volare (Nel blu dipinto di blu) \"†",
+    "song": "Volare (Nel blu dipinto di blu) \" †",
     "artist": "Domenico Modugno"
   },
   {
@@ -31,7 +31,7 @@
     "year": 1958,
     "issue_date": "1958-09-01",
     "week": "1958-09-01",
-    "song": "Volare (Nel blu dipinto di blu)\"†",
+    "song": "Volare (Nel blu dipinto di blu)\" †",
     "artist": "Domenico Modugno"
   },
   {
@@ -4672,7 +4672,7 @@
     "year": 1986,
     "issue_date": "1986-01-18",
     "week": "1986-01-18",
-    "song": "That's What Friends Are For \"†",
+    "song": "That's What Friends Are For \" †",
     "artist": "Dionne and Friends"
   },
   {
@@ -4889,7 +4889,7 @@
     "year": 1987,
     "issue_date": "1987-01-03",
     "week": "1987-01-03",
-    "song": "Walk Like an Egyptian \"†",
+    "song": "Walk Like an Egyptian \" †",
     "artist": "The Bangles"
   },
   {
@@ -5890,7 +5890,7 @@
     "year": 1991,
     "issue_date": "1991-07-27",
     "week": "1991-07-27",
-    "song": "(Everything I Do) I Do It for You \"†",
+    "song": "(Everything I Do) I Do It for You \" †",
     "artist": "Bryan Adams"
   },
   {
@@ -6639,7 +6639,7 @@
     "year": 1999,
     "issue_date": "1999-03-13",
     "week": "1999-03-13",
-    "song": "Believe \"†",
+    "song": "Believe \" †",
     "artist": "Cher"
   },
   {
@@ -7283,7 +7283,7 @@
     "year": 2005,
     "issue_date": "2005-06-04",
     "week": "2005-06-04",
-    "song": "We Belong Together \"†",
+    "song": "We Belong Together \" †",
     "artist": "Mariah Carey"
   },
   {
@@ -7297,7 +7297,7 @@
     "year": 2005,
     "issue_date": "2005-07-09",
     "week": "2005-07-09",
-    "song": "We Belong Together\"†",
+    "song": "We Belong Together\" †",
     "artist": "Mariah Carey"
   },
   {
@@ -7381,7 +7381,7 @@
     "year": 2006,
     "issue_date": "2006-04-08",
     "week": "2006-04-08",
-    "song": "Bad Day \"†",
+    "song": "Bad Day \" †",
     "artist": "Daniel Powter"
   },
   {
@@ -7472,7 +7472,7 @@
     "year": 2007,
     "issue_date": "2007-01-06",
     "week": "2007-01-06",
-    "song": "Irreplaceable \"†",
+    "song": "Irreplaceable \" †",
     "artist": "Beyoncé"
   },
   {
@@ -7619,7 +7619,7 @@
     "year": 2008,
     "issue_date": "2008-01-05",
     "week": "2008-01-05",
-    "song": "Low \"†",
+    "song": "Low \" †",
     "artist": "Flo Rida featuring T-Pain"
   },
   {
@@ -7822,7 +7822,7 @@
     "year": 2009,
     "issue_date": "2009-04-18",
     "week": "2009-04-18",
-    "song": "Boom Boom Pow \"†",
+    "song": "Boom Boom Pow \" †",
     "artist": "The Black Eyed Peas"
   },
   {
@@ -7892,7 +7892,7 @@
     "year": 2010,
     "issue_date": "2010-01-02",
     "week": "2010-01-02",
-    "song": "Tik Tok \"†",
+    "song": "Tik Tok \" †",
     "artist": "Kesha"
   },
   {
@@ -8109,7 +8109,7 @@
     "year": 2011,
     "issue_date": "2011-05-21",
     "week": "2011-05-21",
-    "song": "Rolling in the Deep \"†",
+    "song": "Rolling in the Deep \" †",
     "artist": "Adele"
   },
   {
@@ -8228,7 +8228,7 @@
     "year": 2012,
     "issue_date": "2012-04-28",
     "week": "2012-04-28",
-    "song": "Somebody That I Used to Know \"†",
+    "song": "Somebody That I Used to Know \" †",
     "artist": "Gotye featuring Kimbra"
   },
   {
@@ -10197,5 +10197,12 @@
     "week": "2026-06-20",
     "song": "I Knew It, I Knew You",
     "artist": "Taylor Swift"
+  },
+  {
+    "year": 2026,
+    "issue_date": "2026-07-04",
+    "week": "2026-07-04",
+    "song": "Choosin' Texas",
+    "artist": "Ella Langley"
   }
 ]
